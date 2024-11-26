@@ -23,7 +23,6 @@
 	},
 	"dependencies": {
 		"@flaticon/flaticon-uicons": "^3.3.1",
-		"apexcharts": "^4.1.0",
-		"svelte-apexcharts": "^1.0.2"
+		"apexcharts": "^4.1.0"
 	}
 }

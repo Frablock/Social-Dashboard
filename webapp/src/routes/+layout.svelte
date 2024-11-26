@@ -27,7 +27,7 @@
             </button>
         </div>
     </nav>
-    <div class="w-full text-2xl p-10">
+    <div class="w-full text-2xl p-10 overflow-x-auto">
         {@render children()}
     </div>
 </div>
