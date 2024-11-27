@@ -1,0 +1,55 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "Mh-N9tntdsNQk86pWpo9CAC0Nrk",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "0rXRFChGsjLO8MWgSBq6Nk0S_dU",
+      "id": "UC3q3FLPQtuWWv1uTkTfpEtw",
+      "snippet": {
+        "title": "Antoine Léaument",
+        "description": "Député de l'Essonne 🇫🇷🔺✊ Grigny, Sainte-Geneviève, Saint-Michel, Morsang, Fleury. Pour une République sociale et antiraciste.\n\nRetrouvez-moi aussi sur : \n- Twitch : https://twitch.tv/aleaument\n- Twitter : https://twitter.com/aleaument\n- TikTok : https://tiktok.com/@aleaument\n- Facebook : https://www.facebook.com/aleaument\n- Instagram : https://www.instagram.com/aleaument/\n- Telegram : https://t.me/aleaument\n- Mon site : https://antoineleaument.fr\n",
+        "customUrl": "@aleaument",
+        "publishedAt": "2016-11-20T16:05:03Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/JKTW3Us7cenoNohZudWUq-mTjftojI42-IkshGN5qNvnNmD6YzteCGgbAUs-n-IFkxIuwVy1Ew=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/JKTW3Us7cenoNohZudWUq-mTjftojI42-IkshGN5qNvnNmD6YzteCGgbAUs-n-IFkxIuwVy1Ew=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/JKTW3Us7cenoNohZudWUq-mTjftojI42-IkshGN5qNvnNmD6YzteCGgbAUs-n-IFkxIuwVy1Ew=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Antoine Léaument",
+          "description": "Député de l'Essonne 🇫🇷🔺✊ Grigny, Sainte-Geneviève, Saint-Michel, Morsang, Fleury. Pour une République sociale et antiraciste.\n\nRetrouvez-moi aussi sur : \n- Twitch : https://twitch.tv/aleaument\n- Twitter : https://twitter.com/aleaument\n- TikTok : https://tiktok.com/@aleaument\n- Facebook : https://www.facebook.com/aleaument\n- Instagram : https://www.instagram.com/aleaument/\n- Telegram : https://t.me/aleaument\n- Mon site : https://antoineleaument.fr\n"
+        },
+        "country": "FR"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UU3q3FLPQtuWWv1uTkTfpEtw"
+        }
+      },
+      "statistics": {
+        "viewCount": "76214261",
+        "subscriberCount": "298000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "743"
+      }
+    }
+  ]
+}

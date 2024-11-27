@@ -2,13 +2,13 @@
 include_once "social_api.php";
 /*
 TODO : 
-Add memoization (store the last request and use it as long as we don't actualize the data)
+:check: Add memoization (store the last request and use it as long as we don't actualize the data)
 */
 $env = parse_ini_file('.env');
 
 class youtube { //implements social_api {
     /**
-     * Based on the Sample PHP code for youtube.channels.list
+     * Based on the Sample HTTP code for youtube.channels.list
      */
         
  
@@ -21,14 +21,25 @@ class youtube { //implements social_api {
      function getFollowersCount($username) {
         $ch = curl_init();
 
-        curl_setopt_array($ch, [
-            CURLOPT_URL => 'https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&forHandle='.urldecode($username).'&key='.urlencode($this->apiKey),
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_HTTPHEADER => [
-            //    'Authorization: Bearer '.$this->apiKey,
-                'Accept: application/json'
-            ],
-        ]);
+        if (!file_exists("save/youtube_".$username.".json")) {
+            curl_setopt_array($ch, [
+                CURLOPT_URL => 'https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&forHandle='.urlencode($username).'&key='.urlencode($this->apiKey),
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_HTTPHEADER => [
+                //    'Authorization: Bearer '.$this->apiKey,
+                    'Accept: application/json'
+                ],
+            ]);
+        } else {
+            url_setopt_array($ch, [
+                CURLOPT_URL => 'save/youtube_'.urlencode($username).'.json"',
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_HTTPHEADER => [
+                //    'Authorization: Bearer '.$this->apiKey,
+                    'Accept: application/json'
+                ],
+            ]);
+        }
 
         $response = curl_exec($ch);
         $err = curl_error($ch);
@@ -36,6 +47,7 @@ class youtube { //implements social_api {
         if ($err) {
             echo "cURL Error: " . $err;
         } else {
+            file_put_contents("save/youtube_".$username.".json", $response);
             $data = json_decode($response, true);
             
             if (isset($data['error'])) {
@@ -50,14 +62,25 @@ class youtube { //implements social_api {
     function getAllViews($username) {
         $ch = curl_init();
 
-        curl_setopt_array($ch, [
-            CURLOPT_URL => 'https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&forHandle='.urldecode($username).'&key='.urlencode($this->apiKey),
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_HTTPHEADER => [
-            //    'Authorization: Bearer '.$this->apiKey,
-                'Accept: application/json'
-            ],
-        ]);
+        if (!file_exists("save/youtube_".$username.".json")) {
+            curl_setopt_array($ch, [
+                CURLOPT_URL => 'https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&forHandle='.urlencode($username).'&key='.urlencode($this->apiKey),
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_HTTPHEADER => [
+                //    'Authorization: Bearer '.$this->apiKey,
+                    'Accept: application/json'
+                ],
+            ]);
+        } else {
+            url_setopt_array($ch, [
+                CURLOPT_URL => 'save/youtube_'.urlencode($username).'.json"',
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_HTTPHEADER => [
+                //    'Authorization: Bearer '.$this->apiKey,
+                    'Accept: application/json'
+                ],
+            ]);
+        }
 
         $response = curl_exec($ch);
         $err = curl_error($ch);
@@ -65,6 +88,7 @@ class youtube { //implements social_api {
         if ($err) {
             echo "cURL Error: " . $err;
         } else {
+            file_put_contents("save/youtube_".$username.".json", $response);
             $data = json_decode($response, true);
             
             if (isset($data['error'])) {
@@ -80,14 +104,25 @@ class youtube { //implements social_api {
     function getVideosCount($username) {
         $ch = curl_init();
 
-        curl_setopt_array($ch, [
-            CURLOPT_URL => 'https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&forHandle='.urldecode($username).'&key='.urlencode($this->apiKey),
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_HTTPHEADER => [
-            //    'Authorization: Bearer '.$this->apiKey,
-                'Accept: application/json'
-            ],
-        ]);
+        if (!file_exists("save/youtube_".$username.".json")) {
+            curl_setopt_array($ch, [
+                CURLOPT_URL => 'https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&forHandle='.urlencode($username).'&key='.urlencode($this->apiKey),
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_HTTPHEADER => [
+                //    'Authorization: Bearer '.$this->apiKey,
+                    'Accept: application/json'
+                ],
+            ]);
+        } else {
+            url_setopt_array($ch, [
+                CURLOPT_URL => 'save/youtube_'.urlencode($username).'.json"',
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_HTTPHEADER => [
+                //    'Authorization: Bearer '.$this->apiKey,
+                    'Accept: application/json'
+                ],
+            ]);
+        }
 
         $response = curl_exec($ch);
         $err = curl_error($ch);
@@ -95,6 +130,7 @@ class youtube { //implements social_api {
         if ($err) {
             echo "cURL Error: " . $err;
         } else {
+            file_put_contents("save/youtube_".$username.".json", $response);
             $data = json_decode($response, true);
             
             if (isset($data['error'])) {
