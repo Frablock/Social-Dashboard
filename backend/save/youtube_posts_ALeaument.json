@@ -1,0 +1,1085 @@
+{
+  "kind": "youtube#activityListResponse",
+  "etag": "JmTWg8Tb2umnpNZBN0jN3g7jTPA",
+  "items": [
+    {
+      "kind": "youtube#activity",
+      "etag": "Zs4FU3HxHByiYX6d1ZFyDi5GUFE",
+      "id": "MTUxNzMyNjQyMjY5MTczMjY0MjI2OTAwMDg2MQ",
+      "snippet": {
+        "publishedAt": "2024-11-26T17:31:09+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "Marine Le Pen négocie la taille de sa laisse",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KMu7IMXpZNQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KMu7IMXpZNQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KMu7IMXpZNQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/KMu7IMXpZNQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/KMu7IMXpZNQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "upload"
+      },
+      "contentDetails": {
+        "upload": {
+          "videoId": "KMu7IMXpZNQ"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "CkkZ9davv-vJvmp5UtCBfryG5Nk",
+      "id": "MTUxNzMyNjM0ODM1MTczMjYzNDgzNTAwMDA3Nw",
+      "snippet": {
+        "publishedAt": "2024-11-26T15:27:15+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "Apologie du terrorisme : Retailleau a menti",
+        "description": "Dans cette interview sur LCP, Antoine Léaument, député de \"La France Insoumise\", revient sur des enjeux clés de l’actualité politique et sociale, en abordant des sujets aussi variés que les libertés publiques, les accords internationaux et la lutte contre les violences sexistes.\n\nLe député commence par clarifier la polémique autour de la proposition de loi visant à repositionner le délit d’apologie du terrorisme dans le droit de la presse. Léaument rappelle que cette mesure n’a pas pour objectif de supprimer ce délit, mais de garantir qu’il ne soit pas utilisé pour punir des opposants politiques, comme ce fut le cas avec un syndicaliste de la CGT. En s’appuyant sur des recommandations du juge antiterroriste Marc Trévidic et de Bernard Cazeneuve, il explique que cette démarche vise à protéger les libertés publiques tout en maintenant la capacité à lutter efficacement contre le terrorisme.\n\nLa discussion se déplace ensuite vers les défis de l’agriculture, où Antoine Léaument répond à un agriculteur sur la nécessité de revoir la fiscalité des cotisations sociales. Il plaide pour une répartition plus juste de l’impôt, en rendant l’impôt sur les sociétés progressif : les petites entreprises devraient payer moins, tandis que les grandes, comme celles qui réalisent des superprofits, contribueraient davantage. Il propose également la création d’une caisse de solidarité inter-entreprises pour alléger les charges des petites exploitations, tout en maintenant un système solidaire.\n\nSur le traité de libre-échange Mercosur, Antoine Léaument critique vivement cet accord, qu’il considère incompatible avec les impératifs climatiques et la souveraineté agricole française. Il défend une agriculture locale et durable, soulignant les risques liés à l’importation de produits ne respectant pas les normes environnementales et sanitaires européennes. Il salue la mobilisation unanime des députés contre ce traité, tout en appelant à un modèle économique centré sur la relocalisation et le respect des normes françaises.\n\nEnfin, Léaument aborde la Journée internationale pour l’élimination des violences à l’égard des femmes. Il critique le manque de moyens alloués à la lutte contre les violences sexistes et sexuelles, rappelant que le budget actuel, augmenté de 10 %, reste très en deçà des 2,6 milliards d’euros demandés par les associations féministes. Il appelle à un effort collectif pour abolir le patriarcat, système qu’il considère comme la racine de ces violences. Saluant le courage de Gisèle Penicaud, symbole d’une libération nécessaire de la parole, il insiste sur l’importance d’une formation renforcée pour les forces de l’ordre et d’un accompagnement accru des victimes.\n\n***SUIVEZ-MOI SUR***\n- Twitch : https://twitch.tv/ALeaument\n- Tiktok : https://www.tiktok.com/@aleaument\n- Facebook : https://www.facebook.com/ALeaument/\n- Twitter : https://twitter.com/ALeaument\n- Discord : https://discord.gg/w83JavD\n- Instagram : https://www.instagram.com/aleaument/\n- Snapchat : @ALeaument\n- Youtube (pour vous abonner) : http://bit.ly/2gbk7cm\n- Whatsapp : https://whatsapp.com/channel/0029VaCUZ4U2Jl8JGtMZfK1J\n- Linkedin : https://www.linkedin.com/in/aleaument/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OQ_73NsWz40/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OQ_73NsWz40/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OQ_73NsWz40/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/OQ_73NsWz40/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/OQ_73NsWz40/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "upload"
+      },
+      "contentDetails": {
+        "upload": {
+          "videoId": "OQ_73NsWz40"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "wQa_N6ZGC0GLwLjXnCANtmJ6y8A",
+      "id": "MTE3MzI2MzQ2NTAxNzMyNjM0NjUwMDAwMjQy",
+      "snippet": {
+        "publishedAt": "2024-11-26T15:24:10+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "Apologie du terrorisme : Retailleau a menti",
+        "description": "Dans cette interview sur LCP, Antoine Léaument, député de \"La France Insoumise\", revient sur des enjeux clés de l’actualité politique et sociale, en abordant des sujets aussi variés que les libertés publiques, les accords internationaux et la lutte contre les violences sexistes.\n\nLe député commence par clarifier la polémique autour de la proposition de loi visant à repositionner le délit d’apologie du terrorisme dans le droit de la presse. Léaument rappelle que cette mesure n’a pas pour objectif de supprimer ce délit, mais de garantir qu’il ne soit pas utilisé pour punir des opposants politiques, comme ce fut le cas avec un syndicaliste de la CGT. En s’appuyant sur des recommandations du juge antiterroriste Marc Trévidic et de Bernard Cazeneuve, il explique que cette démarche vise à protéger les libertés publiques tout en maintenant la capacité à lutter efficacement contre le terrorisme.\n\nLa discussion se déplace ensuite vers les défis de l’agriculture, où Antoine Léaument répond à un agriculteur sur la nécessité de revoir la fiscalité des cotisations sociales. Il plaide pour une répartition plus juste de l’impôt, en rendant l’impôt sur les sociétés progressif : les petites entreprises devraient payer moins, tandis que les grandes, comme celles qui réalisent des superprofits, contribueraient davantage. Il propose également la création d’une caisse de solidarité inter-entreprises pour alléger les charges des petites exploitations, tout en maintenant un système solidaire.\n\nSur le traité de libre-échange Mercosur, Antoine Léaument critique vivement cet accord, qu’il considère incompatible avec les impératifs climatiques et la souveraineté agricole française. Il défend une agriculture locale et durable, soulignant les risques liés à l’importation de produits ne respectant pas les normes environnementales et sanitaires européennes. Il salue la mobilisation unanime des députés contre ce traité, tout en appelant à un modèle économique centré sur la relocalisation et le respect des normes françaises.\n\nEnfin, Léaument aborde la Journée internationale pour l’élimination des violences à l’égard des femmes. Il critique le manque de moyens alloués à la lutte contre les violences sexistes et sexuelles, rappelant que le budget actuel, augmenté de 10 %, reste très en deçà des 2,6 milliards d’euros demandés par les associations féministes. Il appelle à un effort collectif pour abolir le patriarcat, système qu’il considère comme la racine de ces violences. Saluant le courage de Gisèle Penicaud, symbole d’une libération nécessaire de la parole, il insiste sur l’importance d’une formation renforcée pour les forces de l’ordre et d’un accompagnement accru des victimes.\n\n***SUIVEZ-MOI SUR***\n- Twitch : https://twitch.tv/ALeaument\n- Tiktok : https://www.tiktok.com/@aleaument\n- Facebook : https://www.facebook.com/ALeaument/\n- Twitter : https://twitter.com/ALeaument\n- Discord : https://discord.gg/w83JavD\n- Instagram : https://www.instagram.com/aleaument/\n- Snapchat : @ALeaument\n- Youtube (pour vous abonner) : http://bit.ly/2gbk7cm\n- Whatsapp : https://whatsapp.com/channel/0029VaCUZ4U2Jl8JGtMZfK1J\n- Linkedin : https://www.linkedin.com/in/aleaument/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OQ_73NsWz40/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OQ_73NsWz40/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OQ_73NsWz40/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/OQ_73NsWz40/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/OQ_73NsWz40/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "playlistItem"
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "OQ_73NsWz40"
+          },
+          "playlistId": "PLS1lYbDOp_Vb6BE24NlTXkCfY-Aphfgyi"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "q-ggp4pIZG-NXhc2ZmNAwbLBUT0",
+      "id": "MTUxNzMyNTMyOTkzMTczMjUzMjk5MzAwMDUwNg",
+      "snippet": {
+        "publishedAt": "2024-11-25T11:09:53+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "Censure de Barnier : Le Pen est une hypocrite",
+        "description": "Dans cette nouvelle intervention, Antoine Léaument, député de \"La France Insoumise\", revient sur des thèmes brûlants de l’actualité politique à l’Assemblée nationale. Il décrypte les récents débats autour du budget, l’attitude ambiguë du Rassemblement National, et la proposition de loi sur l’apologie du terrorisme. Avec une analyse pointue, il met en lumière les contradictions et les enjeux pour les Français.\n\nAntoine commence par répondre aux déclarations de Marine Le Pen, qu’il qualifie d’hypocrite. Il rappelle que le RN a voté contre le budget proposé par le Nouveau Front Populaire, qui aurait permis de réduire le déficit sous la barre des 3 %, tout en taxant les ultra-riches. Ce budget incluait notamment un amendement visant les 147 milliardaires français, générant 14 milliards d’euros. Malgré cela, le RN a choisi de soutenir les macronistes plutôt que de défendre des mesures en faveur des classes populaires.\n\nIl souligne l’ironie de la situation : l’opposition, menée par le Nouveau Front Populaire, s’est retrouvée à voter pour des recettes budgétaires responsables, alors que le gouvernement de Michel Barnier et ses alliés s’y opposaient. Une situation qu’il décrit comme une inversion totale des rôles entre majorité et opposition.\n\nSur la question de la censure, Léaument explique que le soutien du RN aurait pu faire basculer les votes pour faire tomber le gouvernement. Mais Marine Le Pen préfère, selon lui, \"négocier la taille de sa laisse\" avec Michel Barnier, plutôt que de défendre les intérêts des Français. Il dénonce cette stratégie opportuniste, qui sert avant tout les ambitions personnelles de Le Pen.\n\nAntoine aborde ensuite un autre sujet controversé : la proposition de loi visant à retirer le délit d’apologie du terrorisme du code pénal pour le replacer dans le droit de la presse. Il rappelle que cette mesure vise à éviter les abus, citant l’exemple d’un syndicaliste condamné pour un tract pro-palestinien. Même des figures comme Bernard Cazeneuve et Marc Trévidic, respectivement initiateur et critique de cette loi, admettent qu’elle va trop loin.\n\nPour conclure, Léaument appelle à une action politique cohérente et engagée. Il plaide pour un programme basé sur la justice sociale, porté par le Nouveau Front Populaire, et réaffirme son soutien à Lucie Castet comme Première ministre légitime, issue de la majorité parlementaire élue.\n\n***SUIVEZ-MOI SUR***\n- Twitch : https://twitch.tv/ALeaument\n- Tiktok : https://www.tiktok.com/@aleaument\n- Facebook : https://www.facebook.com/ALeaument/\n- Twitter : https://twitter.com/ALeaument\n- Discord : https://discord.gg/w83JavD\n- Instagram : https://www.instagram.com/aleaument/\n- Snapchat : @ALeaument\n- Youtube (pour vous abonner) : http://bit.ly/2gbk7cm\n- Whatsapp : https://whatsapp.com/channel/0029VaCUZ4U2Jl8JGtMZfK1J\n- Linkedin : https://www.linkedin.com/in/aleaument/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5zTgacPsepI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5zTgacPsepI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5zTgacPsepI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5zTgacPsepI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5zTgacPsepI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "upload"
+      },
+      "contentDetails": {
+        "upload": {
+          "videoId": "5zTgacPsepI"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "H6mtE10HqeAlPVOthjS2hy7omxU",
+      "id": "MTE3MzI1MzI3MzMxNzMyNTMyNzMzMDAwNTA0",
+      "snippet": {
+        "publishedAt": "2024-11-25T11:05:33+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "Censure de Barnier : Le Pen est une hypocrite",
+        "description": "Dans cette nouvelle intervention, Antoine Léaument, député de \"La France Insoumise\", revient sur des thèmes brûlants de l’actualité politique à l’Assemblée nationale. Il décrypte les récents débats autour du budget, l’attitude ambiguë du Rassemblement National, et la proposition de loi sur l’apologie du terrorisme. Avec une analyse pointue, il met en lumière les contradictions et les enjeux pour les Français.\n\nAntoine commence par répondre aux déclarations de Marine Le Pen, qu’il qualifie d’hypocrite. Il rappelle que le RN a voté contre le budget proposé par le Nouveau Front Populaire, qui aurait permis de réduire le déficit sous la barre des 3 %, tout en taxant les ultra-riches. Ce budget incluait notamment un amendement visant les 147 milliardaires français, générant 14 milliards d’euros. Malgré cela, le RN a choisi de soutenir les macronistes plutôt que de défendre des mesures en faveur des classes populaires.\n\nIl souligne l’ironie de la situation : l’opposition, menée par le Nouveau Front Populaire, s’est retrouvée à voter pour des recettes budgétaires responsables, alors que le gouvernement de Michel Barnier et ses alliés s’y opposaient. Une situation qu’il décrit comme une inversion totale des rôles entre majorité et opposition.\n\nSur la question de la censure, Léaument explique que le soutien du RN aurait pu faire basculer les votes pour faire tomber le gouvernement. Mais Marine Le Pen préfère, selon lui, \"négocier la taille de sa laisse\" avec Michel Barnier, plutôt que de défendre les intérêts des Français. Il dénonce cette stratégie opportuniste, qui sert avant tout les ambitions personnelles de Le Pen.\n\nAntoine aborde ensuite un autre sujet controversé : la proposition de loi visant à retirer le délit d’apologie du terrorisme du code pénal pour le replacer dans le droit de la presse. Il rappelle que cette mesure vise à éviter les abus, citant l’exemple d’un syndicaliste condamné pour un tract pro-palestinien. Même des figures comme Bernard Cazeneuve et Marc Trévidic, respectivement initiateur et critique de cette loi, admettent qu’elle va trop loin.\n\nPour conclure, Léaument appelle à une action politique cohérente et engagée. Il plaide pour un programme basé sur la justice sociale, porté par le Nouveau Front Populaire, et réaffirme son soutien à Lucie Castet comme Première ministre légitime, issue de la majorité parlementaire élue.\n\n***SUIVEZ-MOI SUR***\n- Twitch : https://twitch.tv/ALeaument\n- Tiktok : https://www.tiktok.com/@aleaument\n- Facebook : https://www.facebook.com/ALeaument/\n- Twitter : https://twitter.com/ALeaument\n- Discord : https://discord.gg/w83JavD\n- Instagram : https://www.instagram.com/aleaument/\n- Snapchat : @ALeaument\n- Youtube (pour vous abonner) : http://bit.ly/2gbk7cm\n- Whatsapp : https://whatsapp.com/channel/0029VaCUZ4U2Jl8JGtMZfK1J\n- Linkedin : https://www.linkedin.com/in/aleaument/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5zTgacPsepI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5zTgacPsepI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5zTgacPsepI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5zTgacPsepI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5zTgacPsepI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "playlistItem"
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "5zTgacPsepI"
+          },
+          "playlistId": "PLS1lYbDOp_Vb6BE24NlTXkCfY-Aphfgyi"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "38S358TUqM7itULjYYZKH4Dj6U8",
+      "id": "MTUxNzMyNDY0ODExMTczMjQ2NDgxMTAwMDExMA",
+      "snippet": {
+        "publishedAt": "2024-11-24T16:13:31+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "Nous sommes entrés dans l'ère de la post-vérité.",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JMoGA6ySwYo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JMoGA6ySwYo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JMoGA6ySwYo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/JMoGA6ySwYo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/JMoGA6ySwYo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "upload"
+      },
+      "contentDetails": {
+        "upload": {
+          "videoId": "JMoGA6ySwYo"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "Nb-zRKnamjnQtiZp5nXyWW41W38",
+      "id": "MTE3MzIzNTE3ODcxNzMyMzUxNzg3MDAwNzAz",
+      "snippet": {
+        "publishedAt": "2024-11-23T08:49:47+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "Mandat d'arrêt contre Netanyahu ! Enfin !",
+        "description": "Dans cette nouvelle édition de \"L’Actu Politique de la Semaine\", Antoine Léaument, député de \"La France Insoumise\", revient sur quatre sujets majeurs qui agitent l’actualité en France et à l’international. Avec son style direct et engagé, il analyse les derniers événements et les enjeux qu’ils posent pour la justice sociale et la démocratie.\n\nAntoine commence par dénoncer une décision du Sénat concernant le projet de loi de financement de la Sécurité sociale. Les sénateurs proposent d’instaurer une journée de travail gratuite de 7 heures par an pour financer les dépenses liées au vieillissement de la population. Une mesure que Léaument qualifie de scandaleuse et déconnectée des réalités sociales. Il rappelle que cette décision intervient alors que de nombreux Français peinent déjà à boucler leurs fins de mois. Contrairement à cette logique de précarisation, il plaide pour taxer les dividendes et le capital afin d’assurer un financement équitable et solidaire de la Sécurité sociale.\n\nLe député aborde ensuite un rebondissement dans l’affaire Michel Zecler, ce producteur de musique noir violemment agressé par des policiers en 2020. Des échanges de messages entre les agents impliqués révèlent des insultes racistes et des propos choquants sur les violences qu’ils ont infligées à Michel Zecler. Léaument réitère son appel à une police exemplaire et républicaine, rappelant que de tels comportements salissent l’uniforme et fragilisent la confiance entre les citoyens et les forces de l’ordre.\n\nEn troisième sujet, il s’attarde sur le mandat d’arrêt émis par la Cour pénale internationale contre Benyamin Netanyahou et deux autres responsables politiques pour crimes de guerre et crimes contre l’humanité. Léaument souligne l’importance du droit international pour juguler les violences et appelle la France à appliquer ce mandat d’arrêt si Netanyahou venait sur son territoire. Il dénonce également les pratiques génocidaires en cours à Gaza et l'inaction de nombreux gouvernements face à cette crise humanitaire.\n\nEnfin, il conclut sur les mobilisations des agriculteurs français contre le traité de libre-échange Mercosur. Il explique que ces accords menacent les exploitations agricoles locales en favorisant une concurrence déloyale et en aggravant le réchauffement climatique par le transport intensif de marchandises. Léaument critique l’hypocrisie des macronistes, qui prétendent s’y opposer tout en continuant à les négocier. Il rappelle que \"La France Insoumise\" soutient les agriculteurs dans leur lutte pour une agriculture locale et durable, tout en protégeant leur santé contre les pesticides importés.\n\nLes liens évoqués dans la vidéo : \n- Retrouvez ma chaîne Twitch : https://www.twitch.tv/aleaument\n- Retrouvez ma vidéo de réponse à Laurent Wauquiez : https://youtu.be/tO8PDHuNhgs\n\n***SUIVEZ-MOI SUR***\n- Twitch : https://twitch.tv/ALeaument\n- Tiktok : https://www.tiktok.com/@aleaument\n- Facebook : https://www.facebook.com/ALeaument/\n- Twitter : https://twitter.com/ALeaument\n- Discord : https://discord.gg/w83JavD\n- Instagram : https://www.instagram.com/aleaument/\n- Snapchat : @ALeaument\n- Youtube (pour vous abonner) : http://bit.ly/2gbk7cm\n- Whatsapp : https://whatsapp.com/channel/0029VaCUZ4U2Jl8JGtMZfK1J\n- Linkedin : https://www.linkedin.com/in/aleaument/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3MrYFL_enqo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3MrYFL_enqo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3MrYFL_enqo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3MrYFL_enqo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3MrYFL_enqo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "playlistItem"
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "3MrYFL_enqo"
+          },
+          "playlistId": "PLS1lYbDOp_VZZ6e-d3uPh7P5KLkTOIfjT"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "kBHkLDl1lin4hIeyQ1ilF0uGqg0",
+      "id": "MTUxNzMyMzUwNjAyMTczMjM1MDYwMjAwMDI4Mw",
+      "snippet": {
+        "publishedAt": "2024-11-23T08:30:02+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "Mandat d'arrêt contre Netanyahu ! Enfin !",
+        "description": "Dans cette nouvelle édition de \"L’Actu Politique de la Semaine\", Antoine Léaument, député de \"La France Insoumise\", revient sur quatre sujets majeurs qui agitent l’actualité en France et à l’international. Avec son style direct et engagé, il analyse les derniers événements et les enjeux qu’ils posent pour la justice sociale et la démocratie.\n\nAntoine commence par dénoncer une décision du Sénat concernant le projet de loi de financement de la Sécurité sociale. Les sénateurs proposent d’instaurer une journée de travail gratuite de 7 heures par an pour financer les dépenses liées au vieillissement de la population. Une mesure que Léaument qualifie de scandaleuse et déconnectée des réalités sociales. Il rappelle que cette décision intervient alors que de nombreux Français peinent déjà à boucler leurs fins de mois. Contrairement à cette logique de précarisation, il plaide pour taxer les dividendes et le capital afin d’assurer un financement équitable et solidaire de la Sécurité sociale.\n\nLe député aborde ensuite un rebondissement dans l’affaire Michel Zecler, ce producteur de musique noir violemment agressé par des policiers en 2020. Des échanges de messages entre les agents impliqués révèlent des insultes racistes et des propos choquants sur les violences qu’ils ont infligées à Michel Zecler. Léaument réitère son appel à une police exemplaire et républicaine, rappelant que de tels comportements salissent l’uniforme et fragilisent la confiance entre les citoyens et les forces de l’ordre.\n\nEn troisième sujet, il s’attarde sur le mandat d’arrêt émis par la Cour pénale internationale contre Benyamin Netanyahou et deux autres responsables politiques pour crimes de guerre et crimes contre l’humanité. Léaument souligne l’importance du droit international pour juguler les violences et appelle la France à appliquer ce mandat d’arrêt si Netanyahou venait sur son territoire. Il dénonce également les pratiques génocidaires en cours à Gaza et l'inaction de nombreux gouvernements face à cette crise humanitaire.\n\nEnfin, il conclut sur les mobilisations des agriculteurs français contre le traité de libre-échange Mercosur. Il explique que ces accords menacent les exploitations agricoles locales en favorisant une concurrence déloyale et en aggravant le réchauffement climatique par le transport intensif de marchandises. Léaument critique l’hypocrisie des macronistes, qui prétendent s’y opposer tout en continuant à les négocier. Il rappelle que \"La France Insoumise\" soutient les agriculteurs dans leur lutte pour une agriculture locale et durable, tout en protégeant leur santé contre les pesticides importés.\n\nLes liens évoqués dans la vidéo : \n- Retrouvez ma chaîne Twitch : https://www.twitch.tv/aleaument\n- Retrouvez ma vidéo de réponse à Laurent Wauquiez : https://youtu.be/tO8PDHuNhgs\n\n***SUIVEZ-MOI SUR***\n- Twitch : https://twitch.tv/ALeaument\n- Tiktok : https://www.tiktok.com/@aleaument\n- Facebook : https://www.facebook.com/ALeaument/\n- Twitter : https://twitter.com/ALeaument\n- Discord : https://discord.gg/w83JavD\n- Instagram : https://www.instagram.com/aleaument/\n- Snapchat : @ALeaument\n- Youtube (pour vous abonner) : http://bit.ly/2gbk7cm\n- Whatsapp : https://whatsapp.com/channel/0029VaCUZ4U2Jl8JGtMZfK1J\n- Linkedin : https://www.linkedin.com/in/aleaument/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3MrYFL_enqo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3MrYFL_enqo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3MrYFL_enqo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3MrYFL_enqo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3MrYFL_enqo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "upload"
+      },
+      "contentDetails": {
+        "upload": {
+          "videoId": "3MrYFL_enqo"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "kmLDoe6EpfYxJP4cVTNjGk7Lqyo",
+      "id": "MTUxNzMyMTgzNDYzMTczMjE4MzQ2MzAwMDgzMw",
+      "snippet": {
+        "publishedAt": "2024-11-21T10:04:23+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "Immigration, sécurité : les mensonges de Laurent Wauquiez",
+        "description": "Dans cette vidéo percutante, Antoine Léaument, député de \"La France Insoumise\", répond point par point à Laurent Wauquiez et déconstruit les arguments avancés dans sa vidéo sur l’immigration et la sécurité. Alors que Wauquiez cherche à lier ces deux thématiques, Léaument démontre avec précision comment ces discours sont souvent basés sur des données erronées, des approximations et des peurs instrumentalisées.\n\nAntoine Léaument commence par analyser les chiffres avancés par Laurent Wauquiez, notamment sur les titres de séjour. Il montre que l’augmentation est principalement due aux étudiants étrangers, dont la présence est un atout pour la France, et à l’immigration économique, nécessaire pour répondre aux besoins du marché du travail. Il explique également que le regroupement familial reste stable et que les demandes d’asile concernent souvent des personnes fuyant des régimes autoritaires ou des zones de conflit, comme les Afghans qui fuient les Talibans.\n\nLéaument rappelle ensuite le devoir d’accueil de la France, terre d’asile historique, et cite la Constitution de 1793 pour appuyer son propos. Il s’attaque aux chiffres erronés de Wauquiez sur l’insécurité, notamment l’augmentation prétendue des homicides, en expliquant que les données montrent une stabilité, voire une baisse sur le long terme. Il critique également l’absence de perspective historique dans les propos de Wauquiez, qui omet de prendre en compte le rôle de la colonisation et des responsabilités françaises dans les causes des migrations.\n\nLa vidéo aborde également la question des prisons, où Wauquiez plaide pour la construction de nouvelles places. Léaument démontre que cette solution est coûteuse et inefficace face aux récidives, et prône des alternatives comme la réinsertion et les peines éducatives. Il critique aussi les centres de rétention administrative (CRA), où l’arbitraire administratif peut enfermer des individus sans jugement pour des périodes prolongées.\n\nEnfin, Antoine Léaument déconstruit l’idée que l’immigration serait un problème intrinsèque pour la société française. Il explique que l’immigration est souvent présentée de manière alarmiste par la droite et l’extrême droite, alors qu’elle constitue une richesse culturelle et économique pour le pays. Il conclut sur un appel à une politique d’accueil humaniste et rationnelle, basée sur les faits et non sur la peur.\n\n***SUIVEZ-MOI SUR***\n- Twitch : https://twitch.tv/ALeaument\n- Tiktok : https://www.tiktok.com/@aleaument\n- Facebook : https://www.facebook.com/ALeaument/\n- Twitter : https://twitter.com/ALeaument\n- Discord : https://discord.gg/w83JavD\n- Instagram : https://www.instagram.com/aleaument/\n- Snapchat : @ALeaument\n- Youtube (pour vous abonner) : http://bit.ly/2gbk7cm\n- Whatsapp : https://whatsapp.com/channel/0029VaCUZ4U2Jl8JGtMZfK1J\n- Linkedin : https://www.linkedin.com/in/aleaument/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tO8PDHuNhgs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tO8PDHuNhgs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tO8PDHuNhgs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/tO8PDHuNhgs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/tO8PDHuNhgs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "upload"
+      },
+      "contentDetails": {
+        "upload": {
+          "videoId": "tO8PDHuNhgs"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "hoRGrB4-XzAUbPq9IE6U6yKv9zw",
+      "id": "MTUxNzMxNzQ1ODE3MTczMTc0NTgxNzAwMDU1OA",
+      "snippet": {
+        "publishedAt": "2024-11-16T08:30:17+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "Match France-Israël : le fiasco de Macron",
+        "description": "Dans cette nouvelle édition de \"L'Actu Politique de la Semaine\", Antoine Léaument, député de \"La France Insoumise\", revient sur quatre sujets majeurs qui marquent l'actualité politique et sociale en France.\n\nAntoine commence par le vote du budget à l’Assemblée nationale. Il détaille comment le Nouveau Front Populaire a réussi à transformer la partie \"recettes\" du budget en rétablissant une fiscalité plus juste, notamment grâce à une taxe sur le patrimoine des milliardaires, qui aurait permis de générer 14 milliards d’euros. Cependant, cette avancée a été anéantie par l’alliance du Rassemblement National, des macronistes et des Républicains, qui ont rejeté le budget. Antoine souligne l’ironie de la situation : le gouvernement, censé être en majorité, se retrouve dans une position d’opposition. Une crise politique sans précédent, selon lui, révélant les dysfonctionnements de la Cinquième République et l’urgence de passer à une Sixième République.\n\nLe deuxième sujet porte sur une affaire de racisme qui a touché un boucher-fromager noir ayant reçu des insultes après avoir fièrement défendu les produits du terroir français. Antoine dénonce cette haine injustifiée et rappelle que la couleur de peau ou l'origine n'ont rien à voir avec la citoyenneté française. Il appelle à défendre les valeurs républicaines de liberté, d’égalité et de fraternité, tout en condamnant fermement ceux qui trahissent ces principes par leurs propos haineux.\n\nLe troisième sujet traite du match de football France-Israël, organisé dans un contexte de tensions internationales. Antoine critique l'organisation de ce match amical, mettant en lumière l'hypocrisie d’afficher une \"relation d’amitié\" avec un pays accusé par un comité de l’ONU de pratiques s’apparentant à des actes génocidaires. Il remercie ceux qui ont brandi des drapeaux palestiniens au stade, rappelant que le sport ne peut être totalement dépolitisé, surtout dans de telles circonstances.\n\nEnfin, Antoine aborde la multiplication des plans sociaux dans l’industrie, notamment chez Michelin et dans le secteur de l’automobile. Il dénonce la rapacité des actionnaires qui privilégient leurs profits au détriment des emplois et des salaires. Il montre comment ces décisions affectent directement le quotidien des travailleurs et appelle à une réforme urgente pour protéger les emplois, renforcer la souveraineté industrielle et réduire les inégalités économiques.\n\nPour suivre ces analyses et participer aux débats essentiels, abonnez-vous à la chaîne d’Antoine Léaument. N’oubliez pas de liker, commenter et partager cette vidéo pour sensibiliser un maximum de citoyens aux enjeux politiques et sociaux actuels. Ensemble, construisons une France plus juste !\n\nChapitrage :\n00:00 - Introduction\n01:35 - Le budget 2024 et la crise politique à l'Assemblée\n11:18 - Une affaire de racisme contre un artisan français\n16:17 - Match France / Israël\n22:07 - Les plans sociaux en série\n\n***SUIVEZ-MOI SUR***\n- Twitch : https://twitch.tv/ALeaument\n- Tiktok : https://www.tiktok.com/@aleaument\n- Facebook : https://www.facebook.com/ALeaument/\n- Twitter : https://twitter.com/ALeaument\n- Discord : https://discord.gg/w83JavD\n- Instagram : https://www.instagram.com/aleaument/\n- Snapchat : @ALeaument\n- Youtube (pour vous abonner) : http://bit.ly/2gbk7cm\n- Whatsapp : https://whatsapp.com/channel/0029VaCUZ4U2Jl8JGtMZfK1J\n- Linkedin : https://www.linkedin.com/in/aleaument/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Y9n2aIoJyqg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Y9n2aIoJyqg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Y9n2aIoJyqg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Y9n2aIoJyqg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Y9n2aIoJyqg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "upload"
+      },
+      "contentDetails": {
+        "upload": {
+          "videoId": "Y9n2aIoJyqg"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "XiQh7TDTLG-MNNlBJVn-JhuOD8A",
+      "id": "MTE3MzE2OTk1NzMxNzMxNjk5NTczMDAwMzM2",
+      "snippet": {
+        "publishedAt": "2024-11-15T19:39:33+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "Match France-Israël : le fiasco de Macron",
+        "description": "Dans cette nouvelle édition de \"L'Actu Politique de la Semaine\", Antoine Léaument, député de \"La France Insoumise\", revient sur quatre sujets majeurs qui marquent l'actualité politique et sociale en France.\n\nAntoine commence par le vote du budget à l’Assemblée nationale. Il détaille comment le Nouveau Front Populaire a réussi à transformer la partie \"recettes\" du budget en rétablissant une fiscalité plus juste, notamment grâce à une taxe sur le patrimoine des milliardaires, qui aurait permis de générer 14 milliards d’euros. Cependant, cette avancée a été anéantie par l’alliance du Rassemblement National, des macronistes et des Républicains, qui ont rejeté le budget. Antoine souligne l’ironie de la situation : le gouvernement, censé être en majorité, se retrouve dans une position d’opposition. Une crise politique sans précédent, selon lui, révélant les dysfonctionnements de la Cinquième République et l’urgence de passer à une Sixième République.\n\nLe deuxième sujet porte sur une affaire de racisme qui a touché un boucher-fromager noir ayant reçu des insultes après avoir fièrement défendu les produits du terroir français. Antoine dénonce cette haine injustifiée et rappelle que la couleur de peau ou l'origine n'ont rien à voir avec la citoyenneté française. Il appelle à défendre les valeurs républicaines de liberté, d’égalité et de fraternité, tout en condamnant fermement ceux qui trahissent ces principes par leurs propos haineux.\n\nLe troisième sujet traite du match de football France-Israël, organisé dans un contexte de tensions internationales. Antoine critique l'organisation de ce match amical, mettant en lumière l'hypocrisie d’afficher une \"relation d’amitié\" avec un pays accusé par un comité de l’ONU de pratiques s’apparentant à des actes génocidaires. Il remercie ceux qui ont brandi des drapeaux palestiniens au stade, rappelant que le sport ne peut être totalement dépolitisé, surtout dans de telles circonstances.\n\nEnfin, Antoine aborde la multiplication des plans sociaux dans l’industrie, notamment chez Michelin et dans le secteur de l’automobile. Il dénonce la rapacité des actionnaires qui privilégient leurs profits au détriment des emplois et des salaires. Il montre comment ces décisions affectent directement le quotidien des travailleurs et appelle à une réforme urgente pour protéger les emplois, renforcer la souveraineté industrielle et réduire les inégalités économiques.\n\nPour suivre ces analyses et participer aux débats essentiels, abonnez-vous à la chaîne d’Antoine Léaument. N’oubliez pas de liker, commenter et partager cette vidéo pour sensibiliser un maximum de citoyens aux enjeux politiques et sociaux actuels. Ensemble, construisons une France plus juste !\n\nChapitrage :\n00:00 - Introduction\n01:35 - Le budget 2024 et la crise politique à l'Assemblée\n11:18 - Une affaire de racisme contre un artisan français\n16:17 - Match France / Israël\n22:07 - Les plans sociaux en série\n\n***SUIVEZ-MOI SUR***\n- Twitch : https://twitch.tv/ALeaument\n- Tiktok : https://www.tiktok.com/@aleaument\n- Facebook : https://www.facebook.com/ALeaument/\n- Twitter : https://twitter.com/ALeaument\n- Discord : https://discord.gg/w83JavD\n- Instagram : https://www.instagram.com/aleaument/\n- Snapchat : @ALeaument\n- Youtube (pour vous abonner) : http://bit.ly/2gbk7cm\n- Whatsapp : https://whatsapp.com/channel/0029VaCUZ4U2Jl8JGtMZfK1J\n- Linkedin : https://www.linkedin.com/in/aleaument/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Y9n2aIoJyqg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Y9n2aIoJyqg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Y9n2aIoJyqg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Y9n2aIoJyqg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Y9n2aIoJyqg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "playlistItem"
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "Y9n2aIoJyqg"
+          },
+          "playlistId": "PLS1lYbDOp_VZZ6e-d3uPh7P5KLkTOIfjT"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "T0uVqlsUxSbT3vMhzGCp5zuEguk",
+      "id": "MTUxNzMxNjA3ODgyMTczMTYwNzg4MjAwMDIzMw",
+      "snippet": {
+        "publishedAt": "2024-11-14T18:11:22+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "Est-ce que l’immigration va continuer ?",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WrDZ4P3VXzY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WrDZ4P3VXzY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WrDZ4P3VXzY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/WrDZ4P3VXzY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/WrDZ4P3VXzY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "upload"
+      },
+      "contentDetails": {
+        "upload": {
+          "videoId": "WrDZ4P3VXzY"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "YLNd7nYkgcChDHhkKwm7Paw-n8s",
+      "id": "MTUxNzMxNDMyMzI3MTczMTQzMjMyNzAwMDQwMQ",
+      "snippet": {
+        "publishedAt": "2024-11-12T17:25:27+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "Marine le Pen s’allie à Macron !",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vm-BjO74W4Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vm-BjO74W4Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vm-BjO74W4Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/vm-BjO74W4Y/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/vm-BjO74W4Y/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "upload"
+      },
+      "contentDetails": {
+        "upload": {
+          "videoId": "vm-BjO74W4Y"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "jjjX6aae-_GidQzj2StmrHWGYro",
+      "id": "MTUxNzMxMTQxMDEzMTczMTE0MTAxMzAwMDQ5NQ",
+      "snippet": {
+        "publishedAt": "2024-11-09T08:30:13+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "Le RN se ridiculise à l’Assemblée… et au-dehors !",
+        "description": "Dans cette édition de \"L'Actu Politique\", Antoine Léaument, député de \"La France Insoumise\", aborde quatre sujets majeurs qui dominent l’actualité en France et à l’international. Avec une analyse approfondie, il revient sur les récentes victoires du Nouveau Front Populaire à l’Assemblée nationale, la campagne de diffamation du Rassemblement National, les tensions au Moyen-Orient et le plan de lutte contre le narcotrafic.\n\nLéaument commence par une victoire marquante à l'Assemblée : le Nouveau Front Populaire a fait adopter des amendements pour financer le budget de la Sécurité sociale en imposant davantage les revenus du capital. Cela a permis de générer 20 milliards d’euros supplémentaires, comblant ainsi le déficit de la Sécurité sociale sans affecter les classes populaires et moyennes. Il explique que la partie \"recettes\" a été transformée au point que les Insoumis l’ont soutenue, tandis que les macronistes s’y sont opposés, créant une situation inédite où l’opposition a réussi à imposer sa vision du budget.\n\nLéaument revient ensuite sur la campagne de diffamation lancée par le Rassemblement National contre lui, à la suite de son intervention sur le tabac. En dénonçant l’impact de la hausse des prix sur les plus modestes, il avait affirmé que la consommation de tabac est nocive. Le RN a détourné ses propos, prétendant qu’il s’attaquait aux buralistes eux-mêmes. En réponse, plusieurs fédérations de buralistes ont même pris sa défense, soulignant l’absurdité des accusations du RN. Léaument se réjouit de cette ironie, où les tentatives de déstabilisation du RN ont finalement servi sa position.\n\nDans la troisième partie, Léaument aborde le conflit israélo-palestinien, s’inquiétant de la montée des tensions. Il félicite les supporters parisiens pour leur message \"Free Palestine\" affiché au Parc des Princes, qu’il considère comme un symbole de paix. Toutefois, il critique certains politiciens, comme Retailleau, qui tentent de stigmatiser cet acte de soutien. Léaument insiste sur l’importance d’une solution à deux États pour instaurer la paix et appelle Israël à retirer ses troupes de Gaza et du Liban. Il dénonce également le silence de certains membres de l'extrême droite face à l’arrestation de deux gendarmes français en Israël, qu'il qualifie d’atteinte à la souveraineté française.\n\nEnfin, Léaument conclut avec le sujet du narcotrafic et de la criminalité organisée, dénonçant la \"mexicanisation\" de la France évoquée par le gouvernement, qui a même provoqué une réaction de l’ambassade du Mexique. Léaument présente le plan de \"La France Insoumise\" pour combattre la criminalité organisée, qui inclut la légalisation du cannabis sous monopole d’État afin de limiter les profits des trafiquants et de renforcer la prévention. Il propose également de désarmer les réseaux criminels en s’attaquant au trafic d’armes, et de renforcer la police judiciaire pour lutter contre le blanchiment d’argent et les trafics financiers.\n\nPour retrouver les différents éléments dont parle Antoine Léaument dans la vidéo : \n- Mon intervention sur l'immigration : https://www.youtube.com/watch?v=loXkdJR8XfU\n- Mon intervention sur le tabac (sur laquelle le RN me diffame) : https://x.com/ALeaument/status/1853424587884675517\n- Notre plan de lutte contre la criminalité organisée : https://lafranceinsoumise.fr/2024/11/08/plan-de-lutte-lfi-du-narcotrafic-a-une-approche-globale-de-la-criminalite-organisee-les-14-propositions-du-groupe-parlementaire-lfi/\n\nChapitrage :\n00:00 Introduction\n01:20 L'actualité de l'Assemblée\n14:11 Les députés RN se ridiculisent\n17:43 Conflit israélo-palestinien\n23:19 Traffics de drogue\n\n***SUIVEZ-MOI SUR***\n- Twitch : https://twitch.tv/ALeaument\n- Tiktok : https://www.tiktok.com/@aleaument\n- Facebook : https://www.facebook.com/ALeaument/\n- Twitter : https://twitter.com/ALeaument\n- Discord : https://discord.gg/w83JavD\n- Instagram : https://www.instagram.com/aleaument/\n- Snapchat : @ALeaument\n- Youtube (pour vous abonner) : http://bit.ly/2gbk7cm\n- Whatsapp : https://whatsapp.com/channel/0029VaCUZ4U2Jl8JGtMZfK1J\n- Linkedin : https://www.linkedin.com/in/aleaument/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UCnVNRLg_YA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UCnVNRLg_YA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UCnVNRLg_YA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/UCnVNRLg_YA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/UCnVNRLg_YA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "upload"
+      },
+      "contentDetails": {
+        "upload": {
+          "videoId": "UCnVNRLg_YA"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "h4yGABZ7Dw3WNDiubuE53RhB2wE",
+      "id": "MTE3MzEwODk1MzYxNzMxMDg5NTM2MDAwNDk5",
+      "snippet": {
+        "publishedAt": "2024-11-08T18:12:16+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "Le RN se ridiculise à l’Assemblée… et au-dehors !",
+        "description": "Dans cette édition de \"L'Actu Politique\", Antoine Léaument, député de \"La France Insoumise\", aborde quatre sujets majeurs qui dominent l’actualité en France et à l’international. Avec une analyse approfondie, il revient sur les récentes victoires du Nouveau Front Populaire à l’Assemblée nationale, la campagne de diffamation du Rassemblement National, les tensions au Moyen-Orient et le plan de lutte contre le narcotrafic.\n\nLéaument commence par une victoire marquante à l'Assemblée : le Nouveau Front Populaire a fait adopter des amendements pour financer le budget de la Sécurité sociale en imposant davantage les revenus du capital. Cela a permis de générer 20 milliards d’euros supplémentaires, comblant ainsi le déficit de la Sécurité sociale sans affecter les classes populaires et moyennes. Il explique que la partie \"recettes\" a été transformée au point que les Insoumis l’ont soutenue, tandis que les macronistes s’y sont opposés, créant une situation inédite où l’opposition a réussi à imposer sa vision du budget.\n\nLéaument revient ensuite sur la campagne de diffamation lancée par le Rassemblement National contre lui, à la suite de son intervention sur le tabac. En dénonçant l’impact de la hausse des prix sur les plus modestes, il avait affirmé que la consommation de tabac est nocive. Le RN a détourné ses propos, prétendant qu’il s’attaquait aux buralistes eux-mêmes. En réponse, plusieurs fédérations de buralistes ont même pris sa défense, soulignant l’absurdité des accusations du RN. Léaument se réjouit de cette ironie, où les tentatives de déstabilisation du RN ont finalement servi sa position.\n\nDans la troisième partie, Léaument aborde le conflit israélo-palestinien, s’inquiétant de la montée des tensions. Il félicite les supporters parisiens pour leur message \"Free Palestine\" affiché au Parc des Princes, qu’il considère comme un symbole de paix. Toutefois, il critique certains politiciens, comme Retailleau, qui tentent de stigmatiser cet acte de soutien. Léaument insiste sur l’importance d’une solution à deux États pour instaurer la paix et appelle Israël à retirer ses troupes de Gaza et du Liban. Il dénonce également le silence de certains membres de l'extrême droite face à l’arrestation de deux gendarmes français en Israël, qu'il qualifie d’atteinte à la souveraineté française.\n\nEnfin, Léaument conclut avec le sujet du narcotrafic et de la criminalité organisée, dénonçant la \"mexicanisation\" de la France évoquée par le gouvernement, qui a même provoqué une réaction de l’ambassade du Mexique. Léaument présente le plan de \"La France Insoumise\" pour combattre la criminalité organisée, qui inclut la légalisation du cannabis sous monopole d’État afin de limiter les profits des trafiquants et de renforcer la prévention. Il propose également de désarmer les réseaux criminels en s’attaquant au trafic d’armes, et de renforcer la police judiciaire pour lutter contre le blanchiment d’argent et les trafics financiers.\n\nPour retrouver les différents éléments dont parle Antoine Léaument dans la vidéo : \n- Mon intervention sur l'immigration : https://www.youtube.com/watch?v=loXkdJR8XfU\n- Mon intervention sur le tabac (sur laquelle le RN me diffame) : https://x.com/ALeaument/status/1853424587884675517\n- Notre plan de lutte contre la criminalité organisée : https://lafranceinsoumise.fr/2024/11/08/plan-de-lutte-lfi-du-narcotrafic-a-une-approche-globale-de-la-criminalite-organisee-les-14-propositions-du-groupe-parlementaire-lfi/\n\nChapitrage :\n00:00 Introduction\n01:20 L'actualité de l'Assemblée\n14:11 Les députés RN se ridiculisent\n17:43 Conflit israélo-palestinien\n23:19 Traffics de drogue\n\n***SUIVEZ-MOI SUR***\n- Twitch : https://twitch.tv/ALeaument\n- Tiktok : https://www.tiktok.com/@aleaument\n- Facebook : https://www.facebook.com/ALeaument/\n- Twitter : https://twitter.com/ALeaument\n- Discord : https://discord.gg/w83JavD\n- Instagram : https://www.instagram.com/aleaument/\n- Snapchat : @ALeaument\n- Youtube (pour vous abonner) : http://bit.ly/2gbk7cm\n- Whatsapp : https://whatsapp.com/channel/0029VaCUZ4U2Jl8JGtMZfK1J\n- Linkedin : https://www.linkedin.com/in/aleaument/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UCnVNRLg_YA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UCnVNRLg_YA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UCnVNRLg_YA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/UCnVNRLg_YA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/UCnVNRLg_YA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "playlistItem"
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "UCnVNRLg_YA"
+          },
+          "playlistId": "PLS1lYbDOp_VZZ6e-d3uPh7P5KLkTOIfjT"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "8i1dc4sNq3i12UA1fWZ7P8azBug",
+      "id": "MTUxNzMxMDYxMzMzMTczMTA2MTMzMzAwMDM1NA",
+      "snippet": {
+        "publishedAt": "2024-11-08T10:22:13+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "Antoine Léaument chez Jean-Jacques Bourdin",
+        "description": "Dans cette interview captivante sur Sud Radio, Antoine Léaument, député de \"La France Insoumise\", aborde des sujets cruciaux comme la lutte contre le narcotrafic, la corruption, et les tensions internationales. Dès le début, il réagit à la récente annonce du ministre de l’Intérieur concernant la création d’un parquet anti-stupéfiants, destiné à traiter le narcotrafic avec la même rigueur que le terrorisme. S’il questionne la démarche, Léaument insiste sur la nécessité d’une justice indépendante capable de s’attaquer à tous les niveaux de la société, incluant les réseaux de corruption au sein même des institutions publiques.\n\nLéaument met également en avant l’importance de s’attaquer au trafic d’armes en France, un problème qu’il considère comme sous-estimé mais essentiel à résoudre pour réduire la criminalité. Selon lui, la France compte entre 10 et 12 millions d’armes, dont une grande partie circulent illégalement, alimentant les violences urbaines. Son message est clair : désarmer la criminalité organisée et concentrer les efforts sur les gros trafiquants, plutôt que sur les consommateurs de drogues.\n\nLa discussion glisse ensuite sur la légalisation du cannabis, un sujet polémique en France. Léaument critique la criminalisation des consommateurs et propose un modèle de légalisation avec un monopole d’État. Ce modèle, inspiré de l’approche française vis-à-vis de l’alcool et du tabac, viserait à limiter les profits liés au cannabis, tout en réduisant les risques de dépendance et en contrôlant la consommation. Selon lui, cette approche permettrait de diminuer les profits des réseaux de drogue tout en protégeant les citoyens.\n\nJean-Jacques Bourdin et Antoine Léaument abordent également les tensions internationales, notamment en Israël et Palestine. En réaction au tifo \"Free Palestine\" déployé au Parc des Princes, Léaument exprime sa solidarité avec le peuple palestinien, dénonçant la politique du gouvernement israélien et rappelant que la position de La France Insoumise est de défendre la solution de deux États. Il critique le manque de fermeté de certains responsables politiques français face aux provocations israéliennes, notamment après l'arrestation de deux gendarmes français au Mont des Oliviers, un domaine appartenant à la France.\n\nEnfin, l'interview se termine sur les sujets de l’Ukraine et de l'Europe. Léaument soutient la fourniture d’aide à l’Ukraine, tout en soulignant l’importance d’éviter un conflit direct entre puissances nucléaires. Il prône une indépendance stratégique de la France au sein de l’Europe, critiquant l’alignement systématique sur les États-Unis et la pression exercée sur les pays européens pour augmenter leurs dépenses militaires, au détriment des besoins sociaux.\n\n***SUIVEZ-MOI SUR***\n- Twitch : https://twitch.tv/ALeaument\n- Tiktok : https://www.tiktok.com/@aleaument\n- Facebook : https://www.facebook.com/ALeaument/\n- Twitter : https://twitter.com/ALeaument\n- Discord : https://discord.gg/w83JavD\n- Instagram : https://www.instagram.com/aleaument/\n- Snapchat : @ALeaument\n- Youtube (pour vous abonner) : http://bit.ly/2gbk7cm\n- Whatsapp : https://whatsapp.com/channel/0029VaCUZ4U2Jl8JGtMZfK1J\n- Linkedin : https://www.linkedin.com/in/aleaument/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/j0x8O1XKi-Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/j0x8O1XKi-Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/j0x8O1XKi-Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/j0x8O1XKi-Q/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/j0x8O1XKi-Q/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "upload"
+      },
+      "contentDetails": {
+        "upload": {
+          "videoId": "j0x8O1XKi-Q"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "2qXUlJAuPbY8GyMD7ypuTR3WWKM",
+      "id": "MTE3MzEwNjEzMzIxNzMxMDYxMzMyMDAwMTgy",
+      "snippet": {
+        "publishedAt": "2024-11-08T10:22:12+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "Antoine Léaument chez Jean-Jacques Bourdin",
+        "description": "Dans cette interview captivante sur Sud Radio, Antoine Léaument, député de \"La France Insoumise\", aborde des sujets cruciaux comme la lutte contre le narcotrafic, la corruption, et les tensions internationales. Dès le début, il réagit à la récente annonce du ministre de l’Intérieur concernant la création d’un parquet anti-stupéfiants, destiné à traiter le narcotrafic avec la même rigueur que le terrorisme. S’il questionne la démarche, Léaument insiste sur la nécessité d’une justice indépendante capable de s’attaquer à tous les niveaux de la société, incluant les réseaux de corruption au sein même des institutions publiques.\n\nLéaument met également en avant l’importance de s’attaquer au trafic d’armes en France, un problème qu’il considère comme sous-estimé mais essentiel à résoudre pour réduire la criminalité. Selon lui, la France compte entre 10 et 12 millions d’armes, dont une grande partie circulent illégalement, alimentant les violences urbaines. Son message est clair : désarmer la criminalité organisée et concentrer les efforts sur les gros trafiquants, plutôt que sur les consommateurs de drogues.\n\nLa discussion glisse ensuite sur la légalisation du cannabis, un sujet polémique en France. Léaument critique la criminalisation des consommateurs et propose un modèle de légalisation avec un monopole d’État. Ce modèle, inspiré de l’approche française vis-à-vis de l’alcool et du tabac, viserait à limiter les profits liés au cannabis, tout en réduisant les risques de dépendance et en contrôlant la consommation. Selon lui, cette approche permettrait de diminuer les profits des réseaux de drogue tout en protégeant les citoyens.\n\nJean-Jacques Bourdin et Antoine Léaument abordent également les tensions internationales, notamment en Israël et Palestine. En réaction au tifo \"Free Palestine\" déployé au Parc des Princes, Léaument exprime sa solidarité avec le peuple palestinien, dénonçant la politique du gouvernement israélien et rappelant que la position de La France Insoumise est de défendre la solution de deux États. Il critique le manque de fermeté de certains responsables politiques français face aux provocations israéliennes, notamment après l'arrestation de deux gendarmes français au Mont des Oliviers, un domaine appartenant à la France.\n\nEnfin, l'interview se termine sur les sujets de l’Ukraine et de l'Europe. Léaument soutient la fourniture d’aide à l’Ukraine, tout en soulignant l’importance d’éviter un conflit direct entre puissances nucléaires. Il prône une indépendance stratégique de la France au sein de l’Europe, critiquant l’alignement systématique sur les États-Unis et la pression exercée sur les pays européens pour augmenter leurs dépenses militaires, au détriment des besoins sociaux.\n\n***SUIVEZ-MOI SUR***\n- Twitch : https://twitch.tv/ALeaument\n- Tiktok : https://www.tiktok.com/@aleaument\n- Facebook : https://www.facebook.com/ALeaument/\n- Twitter : https://twitter.com/ALeaument\n- Discord : https://discord.gg/w83JavD\n- Instagram : https://www.instagram.com/aleaument/\n- Snapchat : @ALeaument\n- Youtube (pour vous abonner) : http://bit.ly/2gbk7cm\n- Whatsapp : https://whatsapp.com/channel/0029VaCUZ4U2Jl8JGtMZfK1J\n- Linkedin : https://www.linkedin.com/in/aleaument/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/j0x8O1XKi-Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/j0x8O1XKi-Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/j0x8O1XKi-Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/j0x8O1XKi-Q/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/j0x8O1XKi-Q/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "playlistItem"
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "j0x8O1XKi-Q"
+          },
+          "playlistId": "PLS1lYbDOp_Vb6BE24NlTXkCfY-Aphfgyi"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "zHMKQtJ6S87TTRiAaGJgQuzw7LA",
+      "id": "MTUxNzMwOTk5NjkxMTczMDk5OTY5MTAwMDU5OQ",
+      "snippet": {
+        "publishedAt": "2024-11-07T17:14:51+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "La police israélienne arrête deux gendarmes français !",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/erG2nXuH-cw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/erG2nXuH-cw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/erG2nXuH-cw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/erG2nXuH-cw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/erG2nXuH-cw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "upload"
+      },
+      "contentDetails": {
+        "upload": {
+          "videoId": "erG2nXuH-cw"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "fr4JH98IIvOTI1YXYMtibvxRvX8",
+      "id": "MTUxNzMwOTIwNTM3MTczMDkyMDUzNzAwMDQyNQ",
+      "snippet": {
+        "publishedAt": "2024-11-06T19:15:37+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "Kamala Harris a fait du Hollande 🤦\u200d♂️",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fGsm2XhZwoE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fGsm2XhZwoE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fGsm2XhZwoE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/fGsm2XhZwoE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/fGsm2XhZwoE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "upload"
+      },
+      "contentDetails": {
+        "upload": {
+          "videoId": "fGsm2XhZwoE"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "l-PAxXFff240xCbmG-GDWtr7s3U",
+      "id": "MTMxNzMwODA5OTk5MTczMDgwOTk5OTM1NjY2Mg",
+      "snippet": {
+        "publishedAt": "2024-11-05T12:33:19+00:00",
+        "channelId": "UCX9lsdsTKfTi1eqoyL-RS-Q",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/MRakjrZwjSv7jJi3xfrPfrIxIo7JenrtrpaZ3zPaA7Tdj3H4c4mWA6NjFMfq36LiWRlmBEmx=s48-c-k-c0x00ffffff-no-rj"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/MRakjrZwjSv7jJi3xfrPfrIxIo7JenrtrpaZ3zPaA7Tdj3H4c4mWA6NjFMfq36LiWRlmBEmx=s88-c-k-c0x00ffffff-no-rj"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/MRakjrZwjSv7jJi3xfrPfrIxIo7JenrtrpaZ3zPaA7Tdj3H4c4mWA6NjFMfq36LiWRlmBEmx=s176-c-k-c0x00ffffff-no-rj"
+          }
+        },
+        "channelTitle": "Mister Geopolitix",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCX9lsdsTKfTi1eqoyL-RS-Q"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "JjS1yc2MOSL1GSyvUMpRny76vls",
+      "id": "MTMxNzMwODA5NzA3MTczMDgwOTcwNzc3NjEyNQ",
+      "snippet": {
+        "publishedAt": "2024-11-05T12:28:27+00:00",
+        "channelId": "UChHspqIjZKau17JfV_9h_8w",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/MYz4a15xAA0jTMV4NCVyWxVGZSfSTyo2ZoGtzidM0hMkoI1KC_CGUZprd4RyHiZ5SJ5AgEkyWA=s48-c-k-c0x00ffffff-no-rj"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/MYz4a15xAA0jTMV4NCVyWxVGZSfSTyo2ZoGtzidM0hMkoI1KC_CGUZprd4RyHiZ5SJ5AgEkyWA=s88-c-k-c0x00ffffff-no-rj"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/MYz4a15xAA0jTMV4NCVyWxVGZSfSTyo2ZoGtzidM0hMkoI1KC_CGUZprd4RyHiZ5SJ5AgEkyWA=s176-c-k-c0x00ffffff-no-rj"
+          }
+        },
+        "channelTitle": "Enora Hope",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UChHspqIjZKau17JfV_9h_8w"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "V8eCdSV7V6uTjgQ4ELnKF0djSus",
+      "id": "MTMxNzMwODA5NTUwMTczMDgwOTU1MDQ5NDY0MQ",
+      "snippet": {
+        "publishedAt": "2024-11-05T12:25:50+00:00",
+        "channelId": "UCmmS_FihQnPgNm0eZGa5TZg",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/SkaGvZZDjCcpWZTUMxw7jnhPpPWDj4__LDMMKnsdJPNSU0TyRsoVSYNlTjLU1986USOFBKraMw=s48-c-k-c0x00ffffff-no-rj"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/SkaGvZZDjCcpWZTUMxw7jnhPpPWDj4__LDMMKnsdJPNSU0TyRsoVSYNlTjLU1986USOFBKraMw=s88-c-k-c0x00ffffff-no-rj"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/SkaGvZZDjCcpWZTUMxw7jnhPpPWDj4__LDMMKnsdJPNSU0TyRsoVSYNlTjLU1986USOFBKraMw=s176-c-k-c0x00ffffff-no-rj"
+          }
+        },
+        "channelTitle": "Ludoc",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCmmS_FihQnPgNm0eZGa5TZg"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "K6w50a3nPt461pMCiiPgkfE4n7M",
+      "id": "MTMxNzMwODA5NDY4MTczMDgwOTQ2ODMwMjU0Mg",
+      "snippet": {
+        "publishedAt": "2024-11-05T12:24:28+00:00",
+        "channelId": "UCI-8QMy9n3I5Pv6mTmXoAXA",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/OAyqr1wug5DzgGxtS8Y1bQTKtNUWbDFpOR4ql5Hf66hvvskqU1CBLkRMjTQLUPOuFiDC8dap=s48-c-k-c0x00ffffff-no-rj"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/OAyqr1wug5DzgGxtS8Y1bQTKtNUWbDFpOR4ql5Hf66hvvskqU1CBLkRMjTQLUPOuFiDC8dap=s88-c-k-c0x00ffffff-no-rj"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/OAyqr1wug5DzgGxtS8Y1bQTKtNUWbDFpOR4ql5Hf66hvvskqU1CBLkRMjTQLUPOuFiDC8dap=s176-c-k-c0x00ffffff-no-rj"
+          }
+        },
+        "channelTitle": "Gaspard G",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCI-8QMy9n3I5Pv6mTmXoAXA"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "oxg4fPVuoF8V17YjlJS-OexOneE",
+      "id": "MTMxNzMwODA5NDU1MTczMDgwOTQ1NTgyNTk2NA",
+      "snippet": {
+        "publishedAt": "2024-11-05T12:24:15+00:00",
+        "channelId": "UCZkgWp0kovymbqDV24t0RaA",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/vnOWarpjf7jn_xwEj98iMo9ZrjuNfMPoBYMac_r_mapo446ounKMlSXuaWqtsjGymSjE9hAY=s48-c-k-c0x00ffffff-no-rj"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/vnOWarpjf7jn_xwEj98iMo9ZrjuNfMPoBYMac_r_mapo446ounKMlSXuaWqtsjGymSjE9hAY=s88-c-k-c0x00ffffff-no-rj"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/vnOWarpjf7jn_xwEj98iMo9ZrjuNfMPoBYMac_r_mapo446ounKMlSXuaWqtsjGymSjE9hAY=s176-c-k-c0x00ffffff-no-rj"
+          }
+        },
+        "channelTitle": "Camille Reporter",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCZkgWp0kovymbqDV24t0RaA"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "6oIWvruxsmawVeBgcqlOwZqbj-o",
+      "id": "MTUxNzMwNzQyOTc5MTczMDc0Mjk3OTAwMDc0NA",
+      "snippet": {
+        "publishedAt": "2024-11-04T17:56:19+00:00",
+        "channelId": "UC3q3FLPQtuWWv1uTkTfpEtw",
+        "title": "Je recadre Marine Le Pen en direct de l’Assemblée Nationale !",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/93VwXQSfRRU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/93VwXQSfRRU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/93VwXQSfRRU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/93VwXQSfRRU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/93VwXQSfRRU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antoine Léaument",
+        "type": "upload"
+      },
+      "contentDetails": {
+        "upload": {
+          "videoId": "93VwXQSfRRU"
+        }
+      }
+    }
+  ],
+  "nextPageToken": "CBkQAA",
+  "pageInfo": {
+    "totalResults": 60,
+    "resultsPerPage": 25
+  }
+}

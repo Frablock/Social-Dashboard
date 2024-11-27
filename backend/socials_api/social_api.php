@@ -1,5 +1,6 @@
+<?php
 interface social_api {
-  public function getFollowersCount(username);
-  public function getPostData(postID);
-  public function getAllPostsID(username);
+  public function getFollowersCount(string $username): int;
+  public function getPostData(string $username, string $postID);
+  public function getAllPostsID(string $username): array;
 }
