@@ -11,8 +11,7 @@
             height: '100%'
         },
         stroke: {
-            curve: 'straight',
-            colors: ['#7b13d6']
+            curve: 'straight'
         },
         tooltip: {
             enabled: true,
@@ -58,6 +57,7 @@
             }
         },
         series: [{
+            name: "Youtube",
             data: [{
                 x: new Date('2023-11').getTime(),
                 y: 357000
@@ -97,6 +97,48 @@
             }, {
                 x: new Date('2024-11').getTime(),
                 y: 510000
+            }],
+        }, {
+            name: "X",
+            data: [{
+                x: new Date('2023-11').getTime(),
+                y: 157353
+            },{
+                x: new Date('2023-12').getTime(),
+                y: 257025
+            }, {
+                x: new Date('2024-01').getTime(),
+                y: 280032
+            }, {
+                x: new Date('2024-02').getTime(),
+                y: 424253
+            }, {
+                x: new Date('2024-03').getTime(),
+                y: 305000
+            }, {
+                x: new Date('2024-04').getTime(),
+                y: 208354
+            }, {
+                x: new Date('2024-05').getTime(),
+                y: 350245
+            }, {
+                x: new Date('2024-06').getTime(),
+                y: 526023
+            }, {
+                x: new Date('2024-07').getTime(),
+                y: 252264
+            }, {
+                x: new Date('2024-08').getTime(),
+                y: 209532
+            }, {
+                x: new Date('2024-09').getTime(),
+                y: 395003
+            }, {
+                x: new Date('2024-10').getTime(),
+                y: 600353
+            }, {
+                x: new Date('2024-11').getTime(),
+                y: 756034
             }],
         }],
         dataLabels: {
@@ -138,7 +180,7 @@
         grid: {
             show: true,
         },
-        colors: ['#7b13d6']
+        colors: ['#df0e0e', '#1361d6']
     };
 
     onMount(async () => {

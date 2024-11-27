@@ -5,7 +5,9 @@
 </script>
 
 <PageHeader title="Dashboard"/>
-<Card title="Benchmark">
-    <Area/>
+<Card title="Social media">
+    <div class="h-72">
+        <Area/>
 
+    </div>
 </Card>
