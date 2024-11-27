@@ -1,9 +1,6 @@
 <?php
 include_once "social_api.php";
-/*
-TODO : 
-:check: Add memoization (store the last request and use it as long as we don't actualize the data)
-*/
+
 $env = parse_ini_file('.env');
 
 class youtube { //implements social_api {
@@ -31,7 +28,7 @@ class youtube { //implements social_api {
                 ],
             ]);
         } else {
-            url_setopt_array($ch, [
+            curl_setopt_array($ch, [
                 CURLOPT_URL => 'save/youtube_'.urlencode($username).'.json"',
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_HTTPHEADER => [
@@ -72,7 +69,7 @@ class youtube { //implements social_api {
                 ],
             ]);
         } else {
-            url_setopt_array($ch, [
+            curl_setopt_array($ch, [
                 CURLOPT_URL => 'save/youtube_'.urlencode($username).'.json"',
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_HTTPHEADER => [
@@ -114,7 +111,7 @@ class youtube { //implements social_api {
                 ],
             ]);
         } else {
-            url_setopt_array($ch, [
+            curl_setopt_array($ch, [
                 CURLOPT_URL => 'save/youtube_'.urlencode($username).'.json"',
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_HTTPHEADER => [
