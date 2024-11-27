@@ -3,8 +3,6 @@
 
     let chartDiv: HTMLDivElement;
 
-    const categories =  ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'];
-
     const options = {
         chart: {
             type: 'line',
@@ -35,21 +33,25 @@
                 w: any;
             }) => {
                 const number = parseInt(series[seriesIndex][dataPointIndex]);
-                const month = w.globals.seriesX[seriesIndex][dataPointIndex];
-                const monthName = categories[month];
+                const timestamp = w.globals.seriesX[seriesIndex][dataPointIndex];
+                const date = new Date(timestamp);
+                const month = date.toLocaleString('en-US', { month: 'long' });
+
+                const formattedNumber = new Intl.NumberFormat('en-US', {
+                    minimumFractionDigits: 0,
+                    maximumFractionDigits: 0
+                }).format(number);
 
                 return `
-                    <div class="flex flex-col gap-2 p-3.5">
-                        <div class="font-medium text-2sm text-gray-600">
+                    <div class="flex flex-col p-2 rounded-2xl">
+                        <div class="font-bold text-2sm text-gray-600">
                             ${month}
                         </div>
                         <div class="flex items-center gap-1.5">
-                            <div class="font-semibold text-md text-gray-900">
-                                ${number}
+                            <div class="text-md text-gray-900">
+                                ${formattedNumber}
                             </div>
-                            <span class="badge badge-outline badge-success badge-xs">
-                                +24%
-                            </span>
+                            <i class="fi fi-br-arrow-up-right text-md text-lime-500"></i>
                         </div>
                     </div>
                 `;
@@ -103,7 +105,12 @@
         xaxis: {
             type: 'datetime',
             labels: {
-                show: true
+                show: true,
+                formatter: (value: number) => {
+                    const date = new Date(value);
+                    const month = date.toLocaleString('en-US', { month: 'short' });
+                    return `${month}`;
+                }
             },
             axisTicks: {
                 show: false
@@ -111,14 +118,17 @@
             axisBorder: {
                 show: false,
             },
-            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
         },
         yaxis: {
             labels: {
                 show: true,
                 formatter: (value: number) => {
                     if (value >= 1000) {
-                        return Math.round(value/1000) + 'k';
+                        const formattedNumber = new Intl.NumberFormat('en-US', {
+                            minimumFractionDigits: 0,
+                            maximumFractionDigits: 0
+                        }).format(Math.round(value/1000));
+                        return formattedNumber + 'k';
                     }
                     return value;
                 }
