@@ -29,7 +29,7 @@ class youtube { //implements social_api {
             ]);
         } else {
             curl_setopt_array($ch, [
-                CURLOPT_URL => 'save/youtube_'.urlencode($username).'.json"',
+                CURLOPT_URL => 'file://' . realpath("save/youtube_".urlencode($username).".json"),
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_HTTPHEADER => [
                 //    'Authorization: Bearer '.$this->apiKey,
@@ -70,7 +70,7 @@ class youtube { //implements social_api {
             ]);
         } else {
             curl_setopt_array($ch, [
-                CURLOPT_URL => 'save/youtube_'.urlencode($username).'.json"',
+                CURLOPT_URL => 'file://' . realpath("save/youtube_".urlencode($username).".json"),
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_HTTPHEADER => [
                 //    'Authorization: Bearer '.$this->apiKey,
@@ -112,7 +112,7 @@ class youtube { //implements social_api {
             ]);
         } else {
             curl_setopt_array($ch, [
-                CURLOPT_URL => 'save/youtube_'.urlencode($username).'.json"',
+                CURLOPT_URL => 'file://' . realpath("save/youtube_".urlencode($username).".json"),
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_HTTPHEADER => [
                 //    'Authorization: Bearer '.$this->apiKey,
