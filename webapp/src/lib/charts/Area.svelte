@@ -173,7 +173,14 @@
                         return formattedNumber + 'k';
                     }
                     return value;
-                }
+                },
+                style: {
+                    colors: [],
+                    fontSize: '12px',
+                    fontFamily: 'Helvetica, Arial, sans-serif',
+                    fontWeight: 700,
+                    cssClass: 'apexcharts-yaxis-label',
+                },
             },
             max: 2200000
         },
