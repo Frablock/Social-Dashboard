@@ -26,7 +26,7 @@
         1A
     </button>
     <div
-        class="absolute bottom-0 left-1 h-1 bg-neutral-700 w-1/4 rounded transition-all duration-300 flex justify-center"
+        class="absolute bottom-[-4px] left-1 h-1 bg-neutral-700 w-1/4 rounded transition-all duration-300 flex justify-center"
         style="transform: translateX(calc(133% * {selectedButton}));"
     ></div>
 </div>
