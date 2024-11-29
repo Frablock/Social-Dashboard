@@ -8,7 +8,7 @@
             type: 'line',
             toolbar: false,
             zoom: false,
-            height: '100%'
+            height: '100%',
         },
         stroke: {
             curve: 'straight'
