@@ -1,7 +1,7 @@
 <script lang="ts">
     import {onMount} from "svelte";
 
-    let chartDiv: HTMLDivElement;
+    export let data: ApexAxisChartSeries = [];
 
     const options = {
         chart: {
@@ -11,7 +11,7 @@
             height: '100%',
         },
         stroke: {
-            curve: 'straight'
+            curve: 'smooth'
         },
         tooltip: {
             enabled: true,
@@ -56,91 +56,6 @@
                 `;
             }
         },
-        series: [{
-            name: "Youtube",
-            data: [{
-                x: new Date('2023-11').getTime(),
-                y: 357000
-            },{
-                x: new Date('2023-12').getTime(),
-                y: 357000
-            }, {
-                x: new Date('2024-01').getTime(),
-                y: 1280000
-            }, {
-                x: new Date('2024-02').getTime(),
-                y: 600000
-            }, {
-                x: new Date('2024-03').getTime(),
-                y: 1130000
-            }, {
-                x: new Date('2024-04').getTime(),
-                y: 350000
-            }, {
-                x: new Date('2024-05').getTime(),
-                y: 2000000
-            }, {
-                x: new Date('2024-06').getTime(),
-                y: 652000
-            }, {
-                x: new Date('2024-07').getTime(),
-                y: 218000
-            }, {
-                x: new Date('2024-08').getTime(),
-                y: 298000
-            }, {
-                x: new Date('2024-09').getTime(),
-                y: 677000
-            }, {
-                x: new Date('2024-10').getTime(),
-                y: 450000
-            }, {
-                x: new Date('2024-11').getTime(),
-                y: 510000
-            }],
-        }, {
-            name: "X",
-            data: [{
-                x: new Date('2023-11').getTime(),
-                y: 157353
-            },{
-                x: new Date('2023-12').getTime(),
-                y: 257025
-            }, {
-                x: new Date('2024-01').getTime(),
-                y: 280032
-            }, {
-                x: new Date('2024-02').getTime(),
-                y: 424253
-            }, {
-                x: new Date('2024-03').getTime(),
-                y: 305000
-            }, {
-                x: new Date('2024-04').getTime(),
-                y: 208354
-            }, {
-                x: new Date('2024-05').getTime(),
-                y: 350245
-            }, {
-                x: new Date('2024-06').getTime(),
-                y: 526023
-            }, {
-                x: new Date('2024-07').getTime(),
-                y: 252264
-            }, {
-                x: new Date('2024-08').getTime(),
-                y: 209532
-            }, {
-                x: new Date('2024-09').getTime(),
-                y: 395003
-            }, {
-                x: new Date('2024-10').getTime(),
-                y: 600353
-            }, {
-                x: new Date('2024-11').getTime(),
-                y: 756034
-            }],
-        }],
         dataLabels: {
             enabled: false
         },
@@ -149,6 +64,7 @@
             labels: {
                 show: true,
                 formatter: (value: number) => {
+                    if (!value) return '';
                     const date = new Date(value);
                     const month = date.toLocaleString('en-US', { month: 'short' });
                     return `${month}`;
@@ -187,8 +103,12 @@
         grid: {
             show: true,
         },
-        colors: ['#df0e0e', '#1361d6']
+        series: data
     };
+
+    console.log(data);
+
+    let chartDiv: HTMLDivElement;
 
     onMount(async () => {
         const ApexCharts = ((await import("apexcharts")).default);

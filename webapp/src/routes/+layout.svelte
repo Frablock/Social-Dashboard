@@ -12,8 +12,8 @@
             <a href="/"><img class="my-10" alt="logo" src="{logo}"/></a>
             <ul class="flex flex-col gap-3">
                 <li><NavLi name="Dashboard" link="/"><i class="fi fi-sr-home flex items-center"></i></NavLi></li>
-                <li><NavLi name="Leaderboard" link="/leaderboard"><i class="fi fi-sr-users flex items-center"></i></NavLi></li>
-                <li><NavLi name="Social Media" link="/socials"><i class="fi fi-sr-share flex items-center"></i></NavLi></li>
+                <li><NavLi name="Analytics" link="/analytics"><i class="fi fi-sr-chart-pie-alt flex items-center"></i></NavLi></li>
+                <li><NavLi name="Compare" link="/compare"><i class="fi fi-sr-users flex items-center"></i></NavLi></li>
             </ul>
         </div>
         <div>

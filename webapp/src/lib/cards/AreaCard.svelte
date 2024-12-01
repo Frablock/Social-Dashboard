@@ -5,6 +5,7 @@
 
     export let title: string | null = null;
     export let link: string | null = null;
+    export let data: ApexAxisChartSeries = [];
 </script>
 
 <Card title="{ title }" link="{ link }">
@@ -16,6 +17,6 @@
         </div>
     </div>
     <div class="h-72">
-        <Area/>
+        <Area data="{data}"/>
     </div>
 </Card>
