@@ -3,12 +3,16 @@
     import Area from "$lib/charts/Area.svelte";
     import TimeSet from "$lib/charts/TimeSet.svelte";
 
-    export let title: string | null = null;
-    export let link: string | null = null;
-    export let data: ApexAxisChartSeries = [];
+
+    interface Props {
+        title: string | null,
+        link: string | null,
+        data: ApexAxisChartSeries
+    }
+    let {title, link, data} : Props = $props()
 </script>
 
-<Card title="{ title }" link="{ link }">
+<Card title={title} link={link}>
     <div slot="tool">
         <div class="flex items-center gap-4 h-full">
             <TimeSet/>
@@ -17,6 +21,6 @@
         </div>
     </div>
     <div class="h-72">
-        <Area data="{data}"/>
+        <Area data={data}/>
     </div>
 </Card>

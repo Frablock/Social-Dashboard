@@ -1,7 +1,14 @@
 <script lang="ts">
     import {onMount} from "svelte";
 
-    export let data: ApexAxisChartSeries = [];
+
+    interface Props {
+        data: ApexAxisChartSeries,
+        seriesLimit: number
+    }
+
+    let {data, seriesLimit = 3} : Props = $props();
+
 
     const options = {
         chart: {
@@ -13,49 +20,6 @@
         stroke: {
             curve: 'smooth'
         },
-        tooltip: {
-            enabled: true,
-            y : {
-                formatter: (value: number) => {
-                    return value.toLocaleString();
-                }
-            },
-            custom: ({
-                 series,
-                 seriesIndex,
-                 dataPointIndex,
-                 w
-            }: {
-                series: any;
-                seriesIndex: number;
-                dataPointIndex: number;
-                w: any;
-            }) => {
-                const number = parseInt(series[seriesIndex][dataPointIndex]);
-                const timestamp = w.globals.seriesX[seriesIndex][dataPointIndex];
-                const date = new Date(timestamp);
-                const month = date.toLocaleString('en-US', { month: 'long' });
-
-                const formattedNumber = new Intl.NumberFormat('en-US', {
-                    minimumFractionDigits: 0,
-                    maximumFractionDigits: 0
-                }).format(number);
-
-                return `
-                    <div class="flex flex-col p-2 rounded-2xl">
-                        <div class="font-bold text-2sm text-gray-600">
-                            ${month}
-                        </div>
-                        <div class="flex items-center gap-1.5">
-                            <div class="text-md text-gray-900">
-                                ${formattedNumber}
-                            </div>
-                            <i class="fi fi-br-arrow-up-right text-md text-lime-500"></i>
-                        </div>
-                    </div>
-                `;
-            }
-        },
         dataLabels: {
             enabled: false
         },
@@ -63,12 +27,6 @@
             type: 'datetime',
             labels: {
                 show: true,
-                formatter: (value: number) => {
-                    if (!value) return '';
-                    const date = new Date(value);
-                    const month = date.toLocaleString('en-US', { month: 'short' });
-                    return `${month}`;
-                }
             },
             axisTicks: {
                 show: false
@@ -103,10 +61,8 @@
         grid: {
             show: true,
         },
-        series: data
+        series: data.slice(0, seriesLimit)
     };
-
-    console.log(data);
 
     let chartDiv: HTMLDivElement;
 

@@ -14,8 +14,10 @@
     let compareSeries: ApexAxisChartSeries = [];
 
     const generateMonthsForYear = (year: number): Date[] => {
-        return Array.from({ length: 12 }, (_, i) => new Date(year, i, 1));
+        return Array.from({ length: 12 }, (_, i) => new Date(year, i, 2));
     };
+
+    console.log(generateMonthsForYear(2024));
 
     personnalities.forEach((personality) => {
         let seriesData = generateMonthsForYear(2024).map((date) => {
