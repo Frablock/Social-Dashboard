@@ -3,6 +3,7 @@
 
     export let link: string | null = null;
 
+
     interface Personality {
         name: string;
         image: string;

@@ -8,7 +8,13 @@
         {name: "Antoine Léaument", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX8Fbg_qoMpayUly-ED6NVaJ7cvKQhbgnvNA&s", views: 7, subscribers: 1.2, status: "upgrade"},
         {name: "Manuel Bompard", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxN76pFbVV--_UG3RPpQzYEMqYKlQyLO2MHQ&s", views: 3, subscribers: 1.1, status: "stable"},
         {name: "Mathilde Panot", image: "https://www.assemblee-nationale.fr/dyn/static/tribun/17/photos/carre/720892.jpg", views: 1, subscribers: 1, status: "upgrade"},
-        {name: "Jordan Bardella", image: "https://static.actu.fr/uploads/2024/11/jordan-bardella-2-960x640.jpg", views: 1, subscribers: 1, status: "downgrade"},
+        {name: "Gabriel Attal", image: "https://upload.wikimedia.org/wikipedia/commons/d/d8/Gabriel_Attal%2C_February_2023.jpg", views: 1, subscribers: 1, status: "downgrade"},
+        {name: "Marine Tondelier", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/20210819_tondelier.m-cr3.jpg/640px-20210819_tondelier.m-cr3.jpg", views: 1, subscribers: 1, status: "downgrade"},
+        {name: "Clemence Guetté", image: "https://www.assemblee-nationale.fr/dyn/static/tribun/17/photos/carre/795310.jpg", views: 1, subscribers: 1, status: "downgrade"},
+        {name: "Louis Boyard", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrLf5Iln3re0SCBMFB2qRQcisn69PTJ_Rvwg&s", views: 1, subscribers: 1, status: "downgrade"},
+        {name: "Rima Hassan", image: "https://upload.wikimedia.org/wikipedia/commons/6/6c/MEP_Rima_Hassan.jpg", views: 1, subscribers: 1, status: "downgrade"},
+        {name: "Louis Boyard", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrLf5Iln3re0SCBMFB2qRQcisn69PTJ_Rvwg&s", views: 1, subscribers: 1, status: "downgrade"},
+        {name: "Louis Boyard", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrLf5Iln3re0SCBMFB2qRQcisn69PTJ_Rvwg&s", views: 1, subscribers: 1, status: "downgrade"}
     ];
 
     let compareSeries: ApexAxisChartSeries = [];

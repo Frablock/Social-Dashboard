@@ -1,14 +1,13 @@
 <script lang="ts">
-    import {onMount} from "svelte";
-
+    import {getContext, onMount} from "svelte";
+    import { topLimit } from "$lib/stores";
+    import { get } from "svelte/store";
 
     interface Props {
         data: ApexAxisChartSeries,
         seriesLimit: number
     }
-
-    let {data, seriesLimit = 3} : Props = $props();
-
+    let {data} : Props = $props();
 
     const options = {
         chart: {
@@ -61,15 +60,31 @@
         grid: {
             show: true,
         },
-        series: data.slice(0, seriesLimit)
+        series: data.slice(0, get(topLimit)),
     };
 
     let chartDiv: HTMLDivElement;
+    let chart: ApexCharts;
 
-    onMount(async () => {
-        const ApexCharts = ((await import("apexcharts")).default);
-        let chart = new ApexCharts(chartDiv, options);
-        await chart.render();
+    onMount(() => {
+        let unsubscribe: () => void;
+
+        (async () => {
+            const ApexCharts = (await import("apexcharts")).default;
+            chart = new ApexCharts(chartDiv, options);
+            await chart.render();
+
+            unsubscribe = topLimit.subscribe((limit: number) => {
+                if (chart) {
+                    chart.updateSeries(data.slice(0, limit));
+                }
+            });
+        })();
+
+        return () => {
+            if (unsubscribe) unsubscribe();
+            if (chart) chart.destroy();
+        };
     });
 </script>
 

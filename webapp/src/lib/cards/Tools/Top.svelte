@@ -1,0 +1,35 @@
+<script lang="ts">
+    import {topLimit} from "$lib/stores";
+
+    let selectedButton = 0;
+
+    function setSelectedButton(index: number, limit: number) {
+        selectedButton = index;
+        topLimit.set(limit);
+    }
+</script>
+
+<div class="bg-white text-sm font-bold flex justify-center relative gap-1">
+    <button
+            class="w-7 relative"
+            on:click={() => setSelectedButton(0, 3)}
+    >
+        3
+    </button>
+    <button
+            class="w-7 relative"
+            on:click={() => setSelectedButton(1, 5)}
+    >
+        5
+    </button>
+    <button
+            class="w-7 relative"
+            on:click={() => setSelectedButton(2, 10)}
+    >
+        10
+    </button>
+    <div
+            class="absolute bottom-[-4px] left-1 h-1 bg-neutral-700 w-1/4 rounded transition-all duration-300 flex justify-center"
+            style="transform: translateX(calc(133% * {selectedButton}));"
+    ></div>
+</div>

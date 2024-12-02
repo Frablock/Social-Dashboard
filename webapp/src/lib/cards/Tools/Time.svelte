@@ -6,7 +6,7 @@
     }
 </script>
 
-<div class="bg-white text-sm font-bold flex justify-center relative">
+<div class="bg-white text-sm font-bold flex justify-center relative gap-1">
     <button
         class="w-7 relative"
         on:click={() => setSelectedButton(0)}
