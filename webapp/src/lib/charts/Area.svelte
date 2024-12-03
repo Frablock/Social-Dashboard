@@ -2,10 +2,10 @@
     import {getContext, onMount} from "svelte";
     import { topLimit } from "$lib/stores";
     import { get } from "svelte/store";
+    import {personnalities} from "$lib/data";
 
     interface Props {
         data: ApexAxisChartSeries,
-        seriesLimit: number
     }
     let {data} : Props = $props();
 
@@ -55,10 +55,21 @@
                     cssClass: 'apexcharts-yaxis-label',
                 },
             },
-            max: 2200000
+            min: 0,
         },
         grid: {
             show: true,
+        },
+        legend: {
+            position: 'right',
+            horizontalAlign: 'center',
+            fontWeight: 700,
+            itemMargin: {
+                vertical: 5
+            },
+            markers: {
+                offsetX: -5,
+            },
         },
         series: data.slice(0, get(topLimit)),
     };

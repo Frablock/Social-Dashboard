@@ -6,10 +6,10 @@
 
     interface Props {
         title: string | null,
-        link: string | null,
+        link?: string | null,
         data: ApexAxisChartSeries
     }
-    let {title, link, data} : Props = $props()
+    let {title, link = "", data} : Props = $props()
 </script>
 
 <Card title={title} link={link}>
