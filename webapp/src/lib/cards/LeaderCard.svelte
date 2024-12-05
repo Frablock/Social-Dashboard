@@ -1,24 +1,34 @@
 <script lang="ts">
     import Card from "$lib/cards/Card.svelte";
-    import { personnalities } from "$lib/data";
+    import type { Personality } from "$lib/types/Personality";
+    import Time from "$lib/cards/Tools/Time.svelte";
+    import Top from "$lib/cards/Tools/Top.svelte";
+    import {type ToolsOption} from "$lib/types/Tools";
 
-    export let title: string | null = null;
-    export let link: string | null = null;
-    export let data: Personality[] = []
+    interface Props {
+        title?: string;
+        link?: string;
+        personalities: Personality[];
+        toolsOption?: ToolsOption;
+    }
+    const { title, link, personalities, toolsOption = {download: false, time: false, top: false} }: Props = $props();
 
     const calculateAverageChange = (personality: Personality): number => {
-        if (personality.views.length < 2 || personality.subscribers.length < 2) {
+        const viewsData = personality.views.history;
+        const subscribersData = personality.subscribers.history;
+
+        if (!viewsData || !subscribersData || viewsData.length < 2 || subscribersData.length < 2) {
             return 0;
         }
 
-        const viewsLast = personality.views[personality.views.length - 1];
-        const viewsSecondLast = personality.views[personality.views.length - 2];
+        const viewsLast = viewsData[viewsData.length - 1].value;
+        const viewsSecondLast = viewsData[viewsData.length - 2].value;
 
-        const subscribersLast = personality.subscribers[personality.subscribers.length - 1];
-        const subscribersSecondLast = personality.subscribers[personality.subscribers.length - 2];
+        const subscribersLast = subscribersData[subscribersData.length - 1].value;
+        const subscribersSecondLast = subscribersData[subscribersData.length - 2].value;
 
-        const viewsChange = ((viewsLast.y - viewsSecondLast.y) / viewsSecondLast.y) * 100;
-        const subscribersChange = ((subscribersLast.y - subscribersSecondLast.y) / subscribersSecondLast.y) * 100;
+        const viewsChange = ((viewsLast - viewsSecondLast) / viewsSecondLast) * 100;
+        const subscribersChange = ((subscribersLast - subscribersSecondLast) / subscribersSecondLast) * 100;
 
         return (viewsChange + subscribersChange) / 2;
     };
@@ -35,13 +45,32 @@
 </script>
 
 <Card title={title} link={link}>
-    <div class="flex flex-col gap-7 mt-4 overflow-x-auto overflow-y-auto">
-        {#each data as personality, index}
+    <div slot="tool">
+        <div class="flex items-center gap-4 h-full">
+            {#if toolsOption.time}
+                <Time/>
+            {/if}
+            {#if toolsOption.time && (toolsOption.top || toolsOption.download)}
+                <div class="h-1/2 bg-neutral-200 w-0.5"></div>
+            {/if}
+            {#if toolsOption.top}
+                <Top/>
+            {/if}
+            {#if toolsOption.time && (toolsOption.top || toolsOption.download)}
+                <div class="h-1/2 bg-neutral-200 w-0.5"></div>
+            {/if}
+            {#if toolsOption.download}
+                <button aria-label="download charts"><i class="fi fi-br-file-download text-lg text-neutral-700"></i></button>
+            {/if}
+        </div>
+    </div>
+    <div class="flex flex-col gap-7 mt-4 scroll-hidden overflow-y-scroll max-h-80">
+        {#each personalities as personality, index}
             <div class="flex items-center gap-4">
                 <img class="object-cover w-10 h-10 rounded-full" alt="{personality.name}" src="{personality.image}"/>
                 <div class="flex flex-col text-sm w-full">
                     <p class="font-bold">{personality.name}</p>
-                    <p class="text-neutral-400 font-semibold">{formatNumber(personality.views[0].y)} Views - {formatNumber(personality.subscribers[0].y)} Subscribers</p>
+                    <p class="text-neutral-400 font-semibold">{formatNumber(personality.views.history[personality.views.history.length - 1].value)} Views - {formatNumber(personality.subscribers.history[personality.subscribers.history.length - 1].value)} Subscribers</p>
                 </div>
                 <div class="flex items-center gap-2">
                     <p class="text-lg font-bold">{index + 1}</p>

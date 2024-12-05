@@ -1,15 +1,22 @@
 <script lang="ts">
     import '../app.css';
     import logo from "$lib/assets/logo.png";
+    import logoVertical from '$lib/assets/logo-vertical.png';
     import NavLi from "$lib/menu/NavLi.svelte";
 
 	let { children } = $props();
 </script>
 
 <div class="bg-background h-screen w-screen flex text-neutral-900">
-    <nav class="bg-secondary shadow-lg shadow-neutral-200 rounded-r-3xl px-6 w-64 flex flex-col justify-between">
+    <nav class="bg-secondary shadow-lg shadow-neutral-200 rounded-r-3xl px-6 lg:w-64 flex flex-col justify-between">
         <div>
-            <a href="/"><img class="my-10" alt="logo" src="{logo}"/></a>
+            <a href="/">
+                <picture>
+                    <source srcset={logoVertical} media="(max-width: 512px)" />
+                    <source srcset={logo} media="(min-width: 1024px)" />
+                    <img class="my-10 mx-4 lg:mx-0 w-24 lg:w-auto" alt="logo" src={logoVertical} />
+                </picture>
+            </a>
             <ul class="flex flex-col gap-3">
                 <li><NavLi name="Dashboard" link="/"><i class="fi fi-sr-home flex items-center"></i></NavLi></li>
                 <li><NavLi name="Subscribers" link="/subscribers"><i class="fi fi-sr-users flex items-center"></i></NavLi></li>

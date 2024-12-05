@@ -1,13 +1,13 @@
 <script lang="ts">
     import {getContext, onMount} from "svelte";
-    import { topLimit } from "$lib/stores";
+    import {timeOption, topOption} from "$lib/stores";
     import { get } from "svelte/store";
     import {personnalities} from "$lib/data";
 
     interface Props {
-        data: ApexAxisChartSeries,
+        series: ApexAxisChartSeries,
     }
-    let {data} : Props = $props();
+    let {series} : Props = $props();
 
     const options = {
         chart: {
@@ -39,10 +39,7 @@
                 show: true,
                 formatter: (value: number) => {
                     if (value >= 1000) {
-                        const formattedNumber = new Intl.NumberFormat('en-US', {
-                            minimumFractionDigits: 0,
-                            maximumFractionDigits: 0
-                        }).format(Math.round(value/1000));
+                        const formattedNumber = new Intl.NumberFormat('en-US').format(Math.round(value/1000));
                         return formattedNumber + 'k';
                     }
                     return value;
@@ -71,29 +68,36 @@
                 offsetX: -5,
             },
         },
-        series: data.slice(0, get(topLimit)),
+        series: series,
     };
 
     let chartDiv: HTMLDivElement;
     let chart: ApexCharts;
 
     onMount(() => {
-        let unsubscribe: () => void;
+        let topOptionHandler: () => void;
+        let timeOptionHandler: () => void;
 
         (async () => {
             const ApexCharts = (await import("apexcharts")).default;
             chart = new ApexCharts(chartDiv, options);
             await chart.render();
 
-            unsubscribe = topLimit.subscribe((limit: number) => {
+            topOptionHandler = topOption.subscribe((limit: number) => {
                 if (chart) {
-                    chart.updateSeries(data.slice(0, limit));
+                    chart.updateSeries(series.slice(0, limit));
+                }
+            });
+            timeOptionHandler = timeOption.subscribe((limit: number) => {
+                if (chart) {
+
                 }
             });
         })();
 
         return () => {
-            if (unsubscribe) unsubscribe();
+            if (topOptionHandler) topOptionHandler();
+            if (timeOptionHandler) timeOptionHandler();
             if (chart) chart.destroy();
         };
     });

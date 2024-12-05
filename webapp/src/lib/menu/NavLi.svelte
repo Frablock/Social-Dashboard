@@ -8,5 +8,5 @@
     <div class="flex items-center justify-center p-4">
         <slot/>
     </div>
-    {name}
+    <span class="hidden md:inline">{name}</span>
 </a>

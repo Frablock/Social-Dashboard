@@ -1,11 +1,20 @@
 <script lang="ts">
-    import {topLimit} from "$lib/stores";
+    import {writable, type Writable} from "svelte/store";
+
+    export const topOption: Writable<number> = writable(3);
 
     let selectedButton = 0;
 
+    $: {
+        const limit = $topOption;
+        if (limit === 3) selectedButton = 0;
+        else if (limit === 5) selectedButton = 1;
+        else if (limit === 10) selectedButton = 2;
+    }
+
     function setSelectedButton(index: number, limit: number) {
         selectedButton = index;
-        topLimit.set(limit);
+        topOption.set(limit);
     }
 </script>
 

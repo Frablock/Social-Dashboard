@@ -3,13 +3,16 @@
     import Area from "$lib/charts/Area.svelte";
     import Time from "$lib/cards/Tools/Time.svelte";
     import Top from "./Tools/Top.svelte"
+    import {type Personality, StatsType} from "$lib/types/Personality";
+    import {generateChartSeries} from "$lib/data.js";
 
     interface Props {
         title: string | null,
         link?: string | null,
-        data: ApexAxisChartSeries
+        personalities: Personality[],
+        target?: StatsType
     }
-    let {title, link = "", data} : Props = $props()
+    let {title, link = "", personalities, target = StatsType.Views} : Props = $props()
 </script>
 
 <Card title={title} link={link}>
@@ -22,7 +25,7 @@
             <button aria-label="download charts"><i class="fi fi-br-file-download text-lg text-neutral-700"></i></button>
         </div>
     </div>
-    <div class="h-72">
-        <Area data={data}/>
+    <div class="h-80">
+        <Area series={generateChartSeries(personalities, target)}/>
     </div>
 </Card>

@@ -1,6 +1,12 @@
 <script lang="ts">
     import {onMount} from "svelte";
 
+    interface Props {
+        series: ApexAxisChartSeries;
+        upgrade: boolean;
+    }
+    const { series, upgrade = true }: Props = $props();
+
     let chartDiv: HTMLDivElement;
     const options = {
         chart: {
@@ -19,14 +25,11 @@
         tooltip: {
             enabled: true
         },
-        series: [{
-            name: 'sales',
-            data: [30, 40, 35, 42]
-        }],
         dataLabels: {
             enabled: false
         },
         xaxis: {
+            type: 'datetime',
             labels: {
                 show: false
             },
@@ -39,14 +42,36 @@
         },
         yaxis: {
             labels: {
-                show: false
+                show: false,
+                formatter: (value: number) => {
+                    if (value >= 1000000) {
+                        return `${(value / 1000000).toFixed(2)}M`;
+                    }
+                    if (value >= 1000) {
+                        return `${(value / 1000).toFixed(0)}k`;
+                    }
+                    return value.toFixed(2);
+                },
+                style: {
+                    colors: [],
+                    fontSize: '12px',
+                    fontFamily: 'Helvetica, Arial, sans-serif',
+                    fontWeight: 700,
+                    cssClass: 'apexcharts-yaxis-label',
+                }
             }
         },
         grid: {
             show: false
         },
-        colors: ['#89ff75']
+        colors: ['#89ff75'],
+        series: series
     };
+
+    if (!upgrade) {
+        options.stroke.colors = ['#FF0000'];
+        options.colors = ['#ff4464']
+    }
 
     onMount(async () => {
         const ApexCharts = ((await import("apexcharts")).default);

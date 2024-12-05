@@ -3,7 +3,7 @@
     export let link: string | null = null;
 </script>
 
-<div class="rounded-2xl p-7 bg-secondary border border-gray-100 shadow-md shadow-neutral-100 pb-10 h-full">
+<div class="rounded-2xl p-7 bg-secondary border border-gray-100 shadow-md shadow-neutral-100 h-fit">
     <div class="flex justify-between text-neutral-500">
         <div class="relative group text-base text-neutral-800 font-bold h-6">
             {#if link}

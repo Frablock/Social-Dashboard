@@ -1,11 +1,25 @@
-interface DatedValue {
-    x: Date,
-    y: number
+export enum StatsType {
+    Views,
+    Subscribers,
+    Likes,
+    Comments
 }
 
-interface Personality {
+export interface DatedValue {
+    date: Date,
+    value: number,
+}
+
+export interface Stats {
+    total: number;
+    history: DatedValue[];
+}
+
+export interface Personality {
     name: string;
     image: string;
-    views: DatedValue[];
-    subscribers: DatedValue[];
+    views: Stats;
+    subscribers: Stats;
+    likes: Stats;
+    comments: Stats;
 }
