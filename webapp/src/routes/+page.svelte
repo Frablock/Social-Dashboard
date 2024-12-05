@@ -19,7 +19,7 @@
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-7 gap-4">
         <div class="lg:col-span-5">
-            <AreaCard title="Weekly Views" link="/views" personalities={personalities} target={StatsType.Views} />
+            <AreaCard title="Weekly Views" link="/views" toolsOption={{download: true, time: true, top: true}} personalities={personalities} target={StatsType.Views} />
         </div>
         <div class="lg:col-span-2">
             <LeaderCard title="Weekly Performances" personalities={personalities.slice(0, 5)} toolsOption={{download: false, time: false, top: true}} />

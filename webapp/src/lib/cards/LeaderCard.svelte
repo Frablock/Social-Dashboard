@@ -1,17 +1,15 @@
 <script lang="ts">
     import Card from "$lib/cards/Card.svelte";
     import type { Personality } from "$lib/types/Personality";
-    import Time from "$lib/cards/Tools/Time.svelte";
-    import Top from "$lib/cards/Tools/Top.svelte";
     import {type ToolsOption} from "$lib/types/Tools";
 
     interface Props {
         title?: string;
         link?: string;
-        personalities: Personality[];
         toolsOption?: ToolsOption;
+        personalities: Personality[];
     }
-    const { title, link, personalities, toolsOption = {download: false, time: false, top: false} }: Props = $props();
+    const { title, link, toolsOption, personalities }: Props = $props();
 
     const calculateAverageChange = (personality: Personality): number => {
         const viewsData = personality.views.history;
@@ -44,26 +42,7 @@
     };
 </script>
 
-<Card title={title} link={link}>
-    <div slot="tool">
-        <div class="flex items-center gap-4 h-full">
-            {#if toolsOption.time}
-                <Time/>
-            {/if}
-            {#if toolsOption.time && (toolsOption.top || toolsOption.download)}
-                <div class="h-1/2 bg-neutral-200 w-0.5"></div>
-            {/if}
-            {#if toolsOption.top}
-                <Top/>
-            {/if}
-            {#if toolsOption.time && (toolsOption.top || toolsOption.download)}
-                <div class="h-1/2 bg-neutral-200 w-0.5"></div>
-            {/if}
-            {#if toolsOption.download}
-                <button aria-label="download charts"><i class="fi fi-br-file-download text-lg text-neutral-700"></i></button>
-            {/if}
-        </div>
-    </div>
+<Card title={title} link={link} toolsOption={toolsOption}>
     <div class="flex flex-col gap-7 mt-4 scroll-hidden overflow-y-scroll max-h-80">
         {#each personalities as personality, index}
             <div class="flex items-center gap-4">

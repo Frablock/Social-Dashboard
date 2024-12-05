@@ -1,13 +1,13 @@
 <script lang="ts">
     import {getContext, onMount} from "svelte";
-    import {timeOption, topOption} from "$lib/stores";
-    import { get } from "svelte/store";
-    import {personnalities} from "$lib/data";
+    import type {Writable} from "svelte/store";
 
     interface Props {
         series: ApexAxisChartSeries,
     }
     let {series} : Props = $props();
+
+    const topOption = getContext<Writable<number>>("topOption");
 
     const options = {
         chart: {
@@ -86,11 +86,6 @@
             topOptionHandler = topOption.subscribe((limit: number) => {
                 if (chart) {
                     chart.updateSeries(series.slice(0, limit));
-                }
-            });
-            timeOptionHandler = timeOption.subscribe((limit: number) => {
-                if (chart) {
-
                 }
             });
         })();

@@ -1,5 +1,10 @@
 <script lang="ts">
+    import {getContext} from "svelte";
+    import type {Writable} from "svelte/store";
+
     let selectedButton = 0;
+
+    const timeOption = getContext<Writable<number>>("timeOption");
 
     function setSelectedButton(index: number) {
         selectedButton = index;

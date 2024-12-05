@@ -1,9 +1,10 @@
 <script lang="ts">
-    import {writable, type Writable} from "svelte/store";
-
-    export const topOption: Writable<number> = writable(3);
+    import {type Writable} from 'svelte/store';
+    import {getContext} from "svelte";
 
     let selectedButton = 0;
+
+    const topOption = getContext<Writable<number>>("topOption");
 
     $: {
         const limit = $topOption;
