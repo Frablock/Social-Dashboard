@@ -1,3 +1,13 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
-@import 'tailwindcss/utilities'
+@import 'tailwindcss/utilities';
+
+@import '@flaticon/flaticon-uicons/css/all/all';
+
+.scroll-hidden::-webkit-scrollbar {
+    display: none;
+}
+.scroll-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
